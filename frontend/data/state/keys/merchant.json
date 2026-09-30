@@ -1,0 +1,6 @@
+{
+  "createdAtMs": 1789183918489,
+  "privateKeyPem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIJMOGeO161RtFq5iaTn/JT7Xln1mWhdxKlU75SYeAUrO\n-----END PRIVATE KEY-----\n",
+  "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA/hGTMZHiEdpHKvRD9BdixggOXttHrRJg5k/B5v2GtQ0=\n-----END PUBLIC KEY-----\n",
+  "note": "TEST-ONLY demo key. Rotate for any real deployment."
+}
