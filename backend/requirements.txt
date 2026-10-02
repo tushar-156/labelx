@@ -1,0 +1,57 @@
+# Core
+python-dotenv
+requests
+beautifulsoup4
+lxml
+
+# Scraping (advanced)
+selenium
+webdriver-manager
+
+# Data processing
+pandas
+numpy
+
+# Embeddings & Vector DB
+sentence-transformers
+faiss-cpu
+
+# LangChain/LangGraph
+langchain
+langgraph
+langchain-google-genai
+langchain-community
+google-genai
+
+# Tools
+tavily-python
+
+# Memory
+redis
+
+# Observability
+langsmith
+
+# Evaluation (Removed temporarily due to Python 3.14 build errors)
+# ragas
+# datasets
+
+# API (Added for Backend)
+fastapi
+uvicorn
+pydantic
+python-multipart
+
+# OCR & Image Processing
+pytesseract
+Pillow
+
+# Utilities
+tqdm
+tenacity
+SQLAlchemy
+psycopg2-binary
+alembic
+celery
+pytest  
+ 
