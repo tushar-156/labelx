@@ -1,0 +1,19 @@
+[
+  {
+    "id": "log_1795430025386",
+    "timestamp": "2026-11-23T16:03:45.386688",
+    "date": "2026-11-23",
+    "product_name": "Test High-Sugar Wafer",
+    "serving_fraction": 1.0,
+    "sugar_g": 0.0,
+    "sodium_mg": 0.0,
+    "saturated_fat_g": 0.0,
+    "calories_kcal": 0.0,
+    "additives_count": 3,
+    "harmful_additives": [
+      "E211",
+      "E102",
+      "E319"
+    ]
+  }
+]

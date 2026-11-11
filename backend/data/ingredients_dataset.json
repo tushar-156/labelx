@@ -1,0 +1,2438 @@
+[
+    {
+        "id": "chem_001",
+        "name": "Maltodextrin",
+        "type": "moderate",
+        "category": "Food - Hidden Sugar / Thickener",
+        "profile": "An ultra-processed carbohydrate powder used as a thickener and bulk filler. It has a massive glycemic index of 110, which spikes blood glucose levels significantly faster than standard table sugar."
+    },
+    {
+        "id": "chem_002",
+        "name": "Aspartame",
+        "type": "moderate",
+        "category": "Food - Artificial Sweetener",
+        "profile": "A low-calorie artificial sweetener found in diet sodas and sugar-free foods. It is studied for potential neurotoxic effects, chronic headaches, disruptions to gut microbiome flora, and insulin sensitivity anomalies."
+    },
+    {
+        "id": "chem_003",
+        "name": "Monosodium Glutamate (MSG)",
+        "type": "moderate",
+        "category": "Food - Flavor Enhancer",
+        "profile": "An industrial sodium salt used to artificially intensify savory umami flavors. In sensitive individuals, it can trigger acute neurological symptoms including cluster headaches, flushing, sweating, and localized facial pressure."
+    },
+    {
+        "id": "chem_004",
+        "name": "High Fructose Corn Syrup (HFCS)",
+        "type": "moderate",
+        "category": "Food - Industrial Sweetener",
+        "profile": "A liquid sweetener alternative derived from heavily chemically altered corn starch. It bypasses regular digestive checkpoints and processes entirely in the liver, drastically increasing the risks of non-alcoholic fatty liver disease and insulin resistance."
+    },
+    {
+        "id": "chem_005",
+        "name": "Sodium Lauryl Sulfate (SLS)",
+        "type": "toxic",
+        "category": "Cosmetics - Surfactant / Foaming Agent",
+        "profile": "A harsh chemical foaming surfactant commonly found in commercial shampoos, body washes, and toothpastes. It aggressively strips the skin of its natural protective lipids, frequently resulting in severe contact dermatitis, scaling, and eczema flare-ups."
+    },
+    {
+        "id": "chem_006",
+        "name": "Methylparaben",
+        "type": "toxic",
+        "category": "Cosmetics - Chemical Preservative",
+        "profile": "An endocrine-disrupting chemical preservative utilized to prolong the shelf life of creams, lotions, and makeup. It mimics estrogen hormones within the human body and has been found embedded in biopsied breast tumor tissues."
+    },
+    {
+        "id": "chem_007",
+        "name": "DMDM Hydantoin",
+        "type": "toxic",
+        "category": "Cosmetics - Formaldehyde Releaser",
+        "profile": "A chemical preservative found in shampoos, conditioners, and liquid soaps that slowly off-gasses small amounts of formaldehyde over time to prevent consumer product spoilage. It is a classified human carcinogen and a severe immune system allergen."
+    },
+    {
+        "id": "chem_008",
+        "name": "TBHQ (Tertiary Butylhydroquinone)",
+        "type": "toxic",
+        "category": "Food - Synthetic Preservative",
+        "profile": "A heavily used synthetic antioxidant in Indian packaged snacks (bhujia, chips) and refined oils to extend shelf life. Linked in some studies to immune system suppression and neurological issues."
+    },
+    {
+        "id": "chem_009",
+        "name": "Tartrazine (E102)",
+        "type": "moderate",
+        "category": "Food - Artificial Color",
+        "profile": "A bright yellow synthetic dye widely used in Indian sweets (jalebi, laddoos) and savory snacks. Known to cause allergic reactions and linked to hyperactivity in children."
+    },
+    {
+        "id": "chem_010",
+        "name": "Sunset Yellow FCF (E110)",
+        "type": "moderate",
+        "category": "Food - Artificial Color",
+        "profile": "An orange food dye commonly found in Indian squash, sherbets, and packaged namkeen. Suspected of contributing to behavioral issues and allergic intolerance."
+    },
+    {
+        "id": "chem_011",
+        "name": "Palmolein Oil",
+        "type": "moderate",
+        "category": "Food - Refined Oil",
+        "profile": "A highly refined, cheap derivative of palm oil ubiquitous in Indian packaged foods and street food. High consumption is linked to cardiovascular disease due to its high saturated fat content and processing methods."
+    },
+    {
+        "id": "chem_012",
+        "name": "Vanaspati (Hydrogenated Vegetable Oil)",
+        "type": "moderate",
+        "category": "Food - Trans Fat Source",
+        "profile": "A cheap ghee substitute widely used in Indian commercial baking and sweet making. It is a major source of artificial trans fats, heavily linked to heart disease and arterial plaque."
+    },
+    {
+        "id": "chem_013",
+        "name": "Disodium Inosinate (E631) & Guanylate (E627)",
+        "type": "moderate",
+        "category": "Food - Flavor Enhancer",
+        "profile": "Often used alongside MSG in instant noodles (like Maggi) and 'magic masala' spice mixes to create a highly addictive savory taste. Can trigger symptoms in sensitive individuals."
+    },
+    {
+        "id": "chem_014",
+        "name": "Carmoisine (E122)",
+        "type": "toxic",
+        "category": "Food - Artificial Color",
+        "profile": "A synthetic red dye commonly used in Indian jellies, jams, and flavored milk. Banned in some countries due to its potential to cause allergic reactions and hyperactivity."
+    },
+    {
+        "id": "chem_015",
+        "name": "Ponceau 4R (E124)",
+        "type": "toxic",
+        "category": "Food - Artificial Color",
+        "profile": "A strawberry red azo dye used in Indian sweets and canned fruits. Considered a potential carcinogen in some animal studies and known to trigger asthma-like symptoms."
+    },
+    {
+        "id": "chem_016",
+        "name": "Sodium Metabisulphite (E223)",
+        "type": "toxic",
+        "category": "Food - Preservative / Bleach",
+        "profile": "Used heavily in Indian dried fruits, dehydrated vegetables, and juices to preserve color. Can cause severe asthmatic reactions and digestive distress in sensitive people."
+    },
+    {
+        "id": "chem_017",
+        "name": "Potassium Sorbate (E202)",
+        "type": "moderate",
+        "category": "Food - Preservative",
+        "profile": "Widely used in Indian packaged paneer, sauces, and baked goods to prevent mold. Generally considered safe, but synthetic forms can cause skin and eye irritation in factory workers or sensitive consumers."
+    },
+    {
+        "id": "chem_018",
+        "name": "Sodium Benzoate (E211)",
+        "type": "toxic",
+        "category": "Food - Preservative",
+        "profile": "Extremely common in Indian pickles (achar), sauces, and carbonated drinks. When combined with Vitamin C, it can form benzene, a known carcinogen."
+    },
+    {
+        "id": "chem_019",
+        "name": "Caramel Color (E150c / E150d)",
+        "type": "toxic",
+        "category": "Food - Artificial Color",
+        "profile": "Used in Indian colas, soy sauce, and some dark sweets. Classes III and IV contain 4-MEI, a byproduct classified as a possible human carcinogen by the IARC."
+    },
+    {
+        "id": "chem_020",
+        "name": "Liquid Glucose / Invert Sugar",
+        "type": "moderate",
+        "category": "Food - Sweetener / Texturizer",
+        "profile": "Cheap sugar syrups heavily used in Indian commercial biscuits and sweets. Drives rapid spikes in blood sugar and contributes strongly to insulin resistance and metabolic syndrome."
+    },
+    {
+        "id": "chem_021",
+        "name": "Ajinomoto (Monosodium Glutamate)",
+        "type": "moderate",
+        "category": "Food - Flavor Enhancer",
+        "profile": "Ubiquitous in Indo-Chinese fast food and packaged soups. Overconsumption leads to 'Chinese Restaurant Syndrome'\u2014headaches, sweating, and chest pain in sensitive individuals."
+    },
+    {
+        "id": "chem_022",
+        "name": "Potassium Bromate (E924)",
+        "type": "toxic",
+        "category": "Food - Flour Improver",
+        "profile": "Historically used in Indian pav (bread) and commercial bakery items to improve dough elasticity. It is a classified possible human carcinogen, leading to bans or heavy restrictions."
+    },
+    {
+        "id": "chem_023",
+        "name": "Calcium Propionate (E282)",
+        "type": "moderate",
+        "category": "Food - Bread Preservative",
+        "profile": "A standard preservative in packaged Indian breads (sliced bread, pav, buns) to prevent mold. Some studies link high intake to irritability and sleep disturbances in children."
+    },
+    {
+        "id": "chem_024",
+        "name": "Silver Leaf (Vark) - Adulterated",
+        "type": "toxic",
+        "category": "Food - Decorative Element",
+        "profile": "Used to decorate Indian sweets (mithai). While pure silver is safe, cheap vark in local markets is frequently adulterated with toxic aluminum or heavy metals."
+    },
+    {
+        "id": "chem_025",
+        "name": "Brilliant Blue FCF (E133)",
+        "type": "moderate",
+        "category": "Food - Artificial Color",
+        "profile": "Used in Indian blue-colored candies, mouth fresheners (mukhwas), and beverages. Can cause hypersensitivity reactions and is poorly absorbed by the digestive tract."
+    },
+    {
+        "id": "chem_026",
+        "name": "Saccharin (E954)",
+        "type": "moderate",
+        "category": "Food - Artificial Sweetener",
+        "profile": "Often found in cheap Indian diet sweets and diabetic-friendly items. Early animal studies linked it to bladder cancer, though later downgraded, it remains controversial and alters gut flora."
+    },
+    {
+        "id": "chem_027",
+        "name": "Sucralose (E955)",
+        "type": "moderate",
+        "category": "Food - Artificial Sweetener",
+        "profile": "Used in 'sugar-free' Indian sweets and diet drinks. Recent studies show it can drastically reduce beneficial gut bacteria and may impact insulin sensitivity despite having zero calories."
+    },
+    {
+        "id": "chem_028",
+        "name": "Titanium Dioxide (E171)",
+        "type": "toxic",
+        "category": "Food - Whitening Agent",
+        "profile": "Used to make Indian sweets, chewing gums, and pan masala appear bright white. The EU banned it as a food additive due to concerns over genotoxicity (DNA damage)."
+    },
+    {
+        "id": "chem_029",
+        "name": "Annatto (E160b)",
+        "type": "moderate",
+        "category": "Food - Natural Color",
+        "profile": "A natural orange-red dye used in Indian butter, cheese, and snacks. While natural, it is a known allergen that can cause hives and irritable bowel symptoms in sensitive individuals."
+    },
+    {
+        "id": "chem_030",
+        "name": "Carrageenan (E407)",
+        "type": "toxic",
+        "category": "Food - Thickener",
+        "profile": "Extracted from red seaweed, used in Indian flavored milks, ice creams, and dairy alternatives. Degraded carrageenan is linked to severe gastrointestinal inflammation and ulcers."
+    },
+    {
+        "id": "chem_031",
+        "name": "Guar Gum (E412)",
+        "type": "moderate",
+        "category": "Food - Thickener",
+        "profile": "Native to India, used widely in ice creams and sauces. Safe in normal amounts, but high concentrations in processed foods can cause significant bloating and digestive gas."
+    },
+    {
+        "id": "chem_032",
+        "name": "Polysorbate 80 (E433)",
+        "type": "toxic",
+        "category": "Food - Emulsifier",
+        "profile": "Used in Indian ice creams to prevent melting. Animal studies indicate it can alter gut microbiota, leading to low-grade inflammation and promoting obesity and metabolic syndrome."
+    },
+    {
+        "id": "chem_033",
+        "name": "Sodium Stearoyl Lactylate (E481)",
+        "type": "moderate",
+        "category": "Food - Emulsifier",
+        "profile": "A dough conditioner common in Indian commercial baked goods to keep bread soft. Heavily processed and contributes to the ultra-processed nature of modern staple breads."
+    },
+    {
+        "id": "chem_034",
+        "name": "Diacetyl",
+        "type": "toxic",
+        "category": "Food - Artificial Flavor",
+        "profile": "The chemical that gives 'butter flavor' to Indian microwave popcorn and cheap baked goods. Inhalation by factory workers causes 'popcorn lung,' a severe irreversible lung disease."
+    },
+    {
+        "id": "chem_035",
+        "name": "Malt Extract",
+        "type": "moderate",
+        "category": "Food - Sweetener/Flavor",
+        "profile": "Used in Indian health drinks (like Bournvita, Horlicks) and biscuits. Often acts as a hidden sugar source, marketed as 'healthy' but driving significant caloric intake."
+    },
+    {
+        "id": "chem_036",
+        "name": "Cottonseed Oil",
+        "type": "moderate",
+        "category": "Food - Cheap Frying Oil",
+        "profile": "Often used as a cheap adulterant or frying oil in local Indian snacks. Unless highly refined, it contains gossypol, a natural toxin, and is heavily treated with pesticides."
+    },
+    {
+        "id": "chem_037",
+        "name": "Erythrosine (E127)",
+        "type": "toxic",
+        "category": "Food - Artificial Color",
+        "profile": "A cherry-pink synthetic dye used in Indian sweets, cherries, and canned fruits. It is an iodine-containing dye linked to thyroid tumors in animal testing."
+    },
+    {
+        "id": "chem_038",
+        "name": "Sulphur Dioxide (E220)",
+        "type": "toxic",
+        "category": "Food - Preservative",
+        "profile": "Used to bleach and preserve Indian jaggery (gur) and dried fruits. High residues can trigger severe asthma attacks and degrade vitamin B1 in the body."
+    },
+    {
+        "id": "chem_039",
+        "name": "Phosphoric Acid (E338)",
+        "type": "toxic",
+        "category": "Food - Acidulant",
+        "profile": "Provides the tangy bite in Indian colas. High consumption interferes with calcium absorption, leading to lower bone density and increased risk of osteoporosis."
+    },
+    {
+        "id": "chem_040",
+        "name": "Sodium Nitrite (E250)",
+        "type": "toxic",
+        "category": "Food - Curing Agent",
+        "profile": "Used in processed meats (sausages, salamis) increasingly popular in urban India. Cooking at high heat forms nitrosamines, which are potent, known carcinogens."
+    },
+    {
+        "id": "chem_041",
+        "name": "Artificial Vanilla Flavor (Vanillin)",
+        "type": "moderate",
+        "category": "Food - Artificial Flavor",
+        "profile": "A synthetic substitute for real vanilla, heavily used in Indian biscuits and ice creams. Often derived from petrochemicals or wood pulp processing byproducts."
+    },
+    {
+        "id": "chem_042",
+        "name": "Shellac (E904)",
+        "type": "moderate",
+        "category": "Food - Glazing Agent",
+        "profile": "A resin secreted by the female lac bug, used to give a shiny coating to Indian apples, citrus fruits, and hard candies. Often not disclosed to vegetarian consumers."
+    },
+    {
+        "id": "chem_043",
+        "name": "Carnauba Wax (E903)",
+        "type": "moderate",
+        "category": "Food - Glazing Agent",
+        "profile": "Used alongside shellac to coat fruits and sweets in India. While generally safe, it prevents the washing away of pesticides trapped underneath the wax layer."
+    },
+    {
+        "id": "chem_044",
+        "name": "BVO (Brominated Vegetable Oil)",
+        "type": "toxic",
+        "category": "Food - Emulsifier",
+        "profile": "Historically used in citrus-flavored sodas in India to keep flavor oils suspended. Bromine builds up in the body and can cause memory loss, skin issues, and nerve problems."
+    },
+    {
+        "id": "chem_045",
+        "name": "Azodicarbonamide (E927a)",
+        "type": "toxic",
+        "category": "Food - Dough Conditioner",
+        "profile": "The 'yoga mat chemical' used to bleach and condition flour in commercial bakeries. Banned in many countries as it breaks down into urethane, a recognized carcinogen."
+    },
+    {
+        "id": "chem_046",
+        "name": "High Maltose Corn Syrup",
+        "type": "moderate",
+        "category": "Food - Sweetener",
+        "profile": "A cheaper alternative to sugar used in Indian candies and jams. Rapidly spikes blood sugar, contributing to the growing epidemic of Type 2 Diabetes in India."
+    },
+    {
+        "id": "chem_047",
+        "name": "Propyl Gallate (E310)",
+        "type": "toxic",
+        "category": "Food - Preservative",
+        "profile": "Often used in conjunction with BHA/BHT in Indian meat products and oil-rich snacks to prevent spoilage. Suspected of being an endocrine disruptor."
+    },
+    {
+        "id": "chem_048",
+        "name": "Paraphenylenediamine (PPD)",
+        "type": "toxic",
+        "category": "Cosmetics - Hair Dye Chemical",
+        "profile": "Extremely common in cheap Indian black hair dyes and 'black mehndi'. A potent allergen causing severe facial swelling, blistering, and long-term immunological sensitization."
+    },
+    {
+        "id": "chem_049",
+        "name": "Hydroquinone",
+        "type": "toxic",
+        "category": "Cosmetics - Skin Lightening",
+        "profile": "The active ingredient in many Indian skin-whitening and fairness creams. Prolonged use causes ochronosis (blue-black skin discoloration) and it is heavily restricted globally."
+    },
+    {
+        "id": "chem_050",
+        "name": "Mercury",
+        "type": "toxic",
+        "category": "Cosmetics - Toxic Lightener",
+        "profile": "Illegally present in some unregulated, cheap fairness creams sold in local Indian markets. Highly toxic, causing kidney damage, skin scarring, and severe neurological issues."
+    },
+    {
+        "id": "chem_051",
+        "name": "Lead (in Surma / Kohl)",
+        "type": "toxic",
+        "category": "Cosmetics - Heavy Metal",
+        "profile": "Traditional Indian eye cosmetics (surma) often contain dangerously high levels of lead sulfide. Absorbed through the eyes, it causes irreversible neurological damage, especially in children."
+    },
+    {
+        "id": "chem_052",
+        "name": "Coal Tar",
+        "type": "toxic",
+        "category": "Cosmetics - Anti-Dandruff / Dye",
+        "profile": "Found in some Indian anti-dandruff shampoos and dark hair dyes. A known human carcinogen derived from petroleum processing."
+    },
+    {
+        "id": "chem_053",
+        "name": "Toluene",
+        "type": "moderate",
+        "category": "Cosmetics - Solvent",
+        "profile": "Common in cheap Indian nail polishes and nail polish removers. Inhalation affects the central nervous system, causing headaches, dizziness, and reproductive harm."
+    },
+    {
+        "id": "chem_054",
+        "name": "Resorcinol",
+        "type": "moderate",
+        "category": "Cosmetics - Hair Colorant",
+        "profile": "Used frequently in Indian chemical hair dyes. It is a known endocrine disruptor affecting thyroid function and a frequent cause of scalp dermatitis."
+    },
+    {
+        "id": "chem_055",
+        "name": "Triclocarban",
+        "type": "toxic",
+        "category": "Cosmetics - Antibacterial",
+        "profile": "Used in Indian antibacterial bar soaps (like certain health soaps). Like Triclosan, it disrupts hormones and persists in the environment, breeding superbugs."
+    },
+    {
+        "id": "chem_056",
+        "name": "Talc (Contaminated)",
+        "type": "toxic",
+        "category": "Cosmetics - Absorbent",
+        "profile": "Widely used in Indian prickly heat powders and baby powders. Unpurified cosmetic talc is frequently contaminated with asbestos, a deadly carcinogen linked to mesothelioma."
+    },
+    {
+        "id": "chem_057",
+        "name": "DEA (Diethanolamine)",
+        "type": "toxic",
+        "category": "Cosmetics - Foaming Agent",
+        "profile": "Used in Indian shampoos and body washes to create a rich lather. Can react with other ingredients to form nitrosodiethanolamine (NDEA), a potent carcinogen absorbed through the skin."
+    },
+    {
+        "id": "chem_058",
+        "name": "Refined Wheat Flour (Maida)",
+        "type": "toxic",
+        "category": "Food - Refined Carbohydrate",
+        "profile": "The primary base for most Indian biscuits. Highly refined, stripped of fiber and nutrients, leading to rapid blood sugar spikes and empty calories."
+    },
+    {
+        "id": "chem_059",
+        "name": "Invert Sugar Syrup",
+        "type": "moderate",
+        "category": "Food - Sweetener",
+        "profile": "A liquid sweetener commonly used in Indian biscuits to retain moisture and control texture. Like high fructose corn syrup, high intake contributes to insulin resistance and obesity."
+    },
+    {
+        "id": "chem_060",
+        "name": "Ammonium Bicarbonate",
+        "type": "moderate",
+        "category": "Food - Leavening Agent",
+        "profile": "Used to make biscuits rise and give them a porous, crisp texture. Generally recognized as safe (GRAS), it degrades into ammonia and carbon dioxide during baking, leaving little residue."
+    },
+    {
+        "id": "chem_061",
+        "name": "Soya Lecithin",
+        "type": "moderate",
+        "category": "Food - Emulsifier",
+        "profile": "Extracted from soybeans, used in biscuits and chocolates to blend oil and water. Safe for most, but can be an allergen for those highly sensitive to soy. Often derived from GMO soy."
+    },
+    {
+        "id": "chem_062",
+        "name": "Gram Flour (Besan)",
+        "type": "safe",
+        "category": "Flour Base",
+        "profile": "A staple, protein-rich flour made from ground chickpeas. Safe, nutritious, and naturally gluten-free, forming the base of bhujia and sev."
+    },
+    {
+        "id": "chem_063",
+        "name": "Citric Acid (INS 330)",
+        "type": "safe",
+        "category": "Acidity Regulator",
+        "profile": "Used in namkeen to provide a tangy 'khatta' flavor and act as a mild preservative. Usually manufactured synthetically using black mold (Aspergillus niger). Safe in moderation."
+    },
+    {
+        "id": "chem_064",
+        "name": "Silicon Dioxide (INS 551)",
+        "type": "moderate",
+        "category": "Food - Anti-caking Agent",
+        "profile": "Added to spice mixes ('masala') in namkeen to prevent clumping. Though naturally occurring as sand/quartz, the nanoparticles used in food are debated regarding long-term gut health impacts."
+    },
+    {
+        "id": "chem_065",
+        "name": "Sodium Fluoride",
+        "type": "toxic",
+        "category": "Cosmetics - Anti-cavity Active",
+        "profile": "The primary active ingredient in commercial toothpastes. Essential for remineralizing enamel, but highly toxic if swallowed in large quantities (fluorosis)."
+    },
+    {
+        "id": "chem_066",
+        "name": "Calcium Carbonate",
+        "type": "safe",
+        "category": "Abrasive",
+        "profile": "A mild abrasive used in toothpastes to scrub away plaque and surface stains. Found in both commercial and Ayurvedic toothpastes. Safe for oral use."
+    },
+    {
+        "id": "chem_067",
+        "name": "Hydrated Silica",
+        "type": "moderate",
+        "category": "Cosmetics - Abrasive / Thickener",
+        "profile": "Another common abrasive. While effective at cleaning, overly aggressive brushing with highly abrasive silica toothpastes can wear down enamel over time."
+    },
+    {
+        "id": "chem_068",
+        "name": "Sorbitol",
+        "type": "safe",
+        "category": "Humectant / Sweetener",
+        "profile": "Keeps toothpaste from drying out in the tube and adds a sweet taste. Safe, though consuming large amounts (e.g., in sugar-free gums) has a laxative effect."
+    },
+    {
+        "id": "chem_069",
+        "name": "Sodium Lauryl Sulphate (SLS)",
+        "type": "toxic",
+        "category": "Cosmetics - Foaming Agent (Hazard)",
+        "profile": "Creates the foaming action in almost all Indian toothpastes. A known severe irritant that frequently causes or exacerbates mouth ulcers (canker sores) in sensitive individuals."
+    },
+    {
+        "id": "chem_070",
+        "name": "Cellulose Gum",
+        "type": "toxic",
+        "category": "Thickener",
+        "profile": "A plant-derived thickening agent used to give toothpaste its creamy texture. Completely safe and non-toxic."
+    },
+    {
+        "id": "chem_071",
+        "name": "Sodium Saccharin",
+        "type": "moderate",
+        "category": "Cosmetics - Artificial Sweetener",
+        "profile": "Used to mask the bitter taste of cleaning agents in toothpaste. An artificial zero-calorie sweetener; generally safe in the tiny amounts absorbed orally."
+    },
+    {
+        "id": "chem_072",
+        "name": "Arginine",
+        "type": "moderate",
+        "category": "Cosmetics - Enamel Nourishment",
+        "profile": "An amino acid sometimes added to premium toothpastes to help neutralize plaque acids and block dentin tubules, reducing tooth sensitivity."
+    },
+    {
+        "id": "chem_073",
+        "name": "Sodium Palmate",
+        "type": "safe",
+        "category": "Cosmetics - Soap Base Surfactant",
+        "profile": "The chemical salt resulting from the reaction of palm oil with lye. The primary cleansing agent in almost all Indian bar soaps. Safe, but strips natural skin oils, causing dryness."
+    },
+    {
+        "id": "chem_074",
+        "name": "Sodium Palm Kernelate",
+        "type": "safe",
+        "category": "Cosmetics - Soap Base Surfactant",
+        "profile": "Derived from palm kernel oil. Works alongside Sodium Palmate to create a hard soap bar with a rich, bubbly lather. Also contributes to stripping skin moisture."
+    },
+    {
+        "id": "chem_075",
+        "name": "Glycerin",
+        "type": "safe",
+        "category": "Humectant",
+        "profile": "A natural byproduct of the soap-making process. Draws moisture from the air into the skin. Highly beneficial, though commercial soaps often extract it to sell separately."
+    },
+    {
+        "id": "chem_076",
+        "name": "Tetrasodium EDTA",
+        "type": "toxic",
+        "category": "Cosmetics - Chelating Agent",
+        "profile": "Added to soaps to bind to hard water minerals, ensuring the soap lathers well in all water types. Safe for humans, but poses severe environmental persistence concerns."
+    },
+    {
+        "id": "chem_077",
+        "name": "Etidronic Acid",
+        "type": "moderate",
+        "category": "Cosmetics - Chelating Agent / Preservative",
+        "profile": "Used in bar soaps to prevent discoloration and rancidity caused by metal ions. Generally safe, but can be a mild skin irritant for those with eczema."
+    },
+    {
+        "id": "chem_078",
+        "name": "Silver Oxide",
+        "type": "moderate",
+        "category": "Cosmetics - Antimicrobial",
+        "profile": "Used in 'Activ Silver' germ-protection soaps. Effective at disrupting bacterial cell walls. While safe topically, environmental accumulation of nanosilver is a growing concern."
+    },
+    {
+        "id": "chem_079",
+        "name": "Chloroxylenol (PCMX)",
+        "type": "toxic",
+        "category": "Cosmetics - Antiseptic",
+        "profile": "The classic active ingredient in Dettol products. A potent antiseptic and disinfectant. Safe for human skin in low concentrations, but highly toxic to cats and fish."
+    },
+    {
+        "id": "chem_080",
+        "name": "Climbazole",
+        "type": "moderate",
+        "category": "Cosmetics - Antifungal",
+        "profile": "An antifungal agent found in some anti-dandruff shampoos and specialized soaps. Effective against yeast-like fungi, but restricted in some regions due to potential endocrine disruption."
+    },
+    {
+        "id": "chem_081",
+        "name": "Thymol",
+        "type": "moderate",
+        "category": "Cosmetics - Natural Antiseptic",
+        "profile": "A naturally occurring biocide found in thyme oil, often used in medicated soaps and mouthwashes for its strong antibacterial and antifungal properties."
+    },
+    {
+        "id": "chem_082",
+        "name": "Terpineol",
+        "type": "moderate",
+        "category": "Cosmetics - Fragrance / Antimicrobial",
+        "profile": "Found in pine oil, it is used in antiseptic soaps for its characteristic medicinal scent and mild bactericidal properties."
+    },
+    {
+        "id": "chem_083",
+        "name": "PGPR (E476)",
+        "type": "moderate",
+        "category": "Food - Emulsifier",
+        "profile": "Polyglycerol Polyricinoleate. A cheap chemical emulsifier used in Indian chocolates (like Dairy Milk) to replace expensive cocoa butter. Derived from castor beans; generally safe but heavily processed."
+    },
+    {
+        "id": "chem_084",
+        "name": "Ammonium Phosphatides (E442)",
+        "type": "moderate",
+        "category": "Food - Emulsifier",
+        "profile": "Used alongside PGPR in chocolate manufacturing to alter the thickness of chocolate. A synthetic alternative to soy lecithin."
+    },
+    {
+        "id": "chem_085",
+        "name": "Nisin (E234)",
+        "type": "safe",
+        "category": "Natural Preservative",
+        "profile": "A polycyclic antibacterial peptide used in packaged paneer and cheese slices in India to prevent spoilage. Safe and naturally derived from lactococcus lactis."
+    },
+    {
+        "id": "chem_086",
+        "name": "Sodium Alginate (E401)",
+        "type": "moderate",
+        "category": "Food - Thickener",
+        "profile": "Extracted from brown seaweed, used to thicken Indian flavored milks and ice creams. Generally safe, but can inhibit the absorption of iron and calcium if consumed in massive quantities."
+    },
+    {
+        "id": "chem_087",
+        "name": "Xanthan Gum (E415)",
+        "type": "safe",
+        "category": "Stabilizer",
+        "profile": "Created through bacterial fermentation, used in Indian sauces, ketchups, and gluten-free products to prevent ingredient separation. Completely safe."
+    },
+    {
+        "id": "chem_088",
+        "name": "Sodium Phosphates (E339)",
+        "type": "moderate",
+        "category": "Food - Texturizer / Acidity Regulator",
+        "profile": "Used in processed cheese and evaporated milk. High consumption of inorganic phosphates can negatively impact kidney health and bone density."
+    },
+    {
+        "id": "chem_089",
+        "name": "Disodium Ribonucleotides (E635)",
+        "type": "moderate",
+        "category": "Food - Flavor Enhancer",
+        "profile": "Often paired with MSG in Indian instant noodles and chips. Can trigger gout or worsen symptoms in sensitive individuals by increasing uric acid levels."
+    },
+    {
+        "id": "chem_090",
+        "name": "Malic Acid (E296)",
+        "type": "moderate",
+        "category": "Food - Acidity Regulator",
+        "profile": "Provides a tart, sour taste to Indian fruit juices and sour candies. Safe, naturally occurs in apples, though commercial forms are synthetically produced."
+    },
+    {
+        "id": "chem_091",
+        "name": "Paprika Oleoresin (E160c)",
+        "type": "toxic",
+        "category": "Natural Color",
+        "profile": "A natural orange-red extract from bell peppers used in spicy Indian namkeen and sauces. Safe and non-toxic."
+    },
+    {
+        "id": "chem_092",
+        "name": "Calcium Silicate (E552)",
+        "type": "safe",
+        "category": "Anti-caking Agent",
+        "profile": "Used in Indian table salt and spice powders (garam masala, chaat masala) to prevent them from absorbing moisture and clumping. Safe."
+    },
+    {
+        "id": "chem_093",
+        "name": "Light Liquid Paraffin (Mineral Oil)",
+        "type": "moderate",
+        "category": "Cosmetics - Cheap Filler",
+        "profile": "Extremely common in commercial Indian 'Amla' or 'Almond' hair oils. It is a highly refined crude oil derivative that coats the hair, blocking moisture absorption. Cheaper than real vegetable oils."
+    },
+    {
+        "id": "chem_094",
+        "name": "Dimethicone",
+        "type": "toxic",
+        "category": "Cosmetics - Silicone",
+        "profile": "A synthetic silicone used in hair serums and conditioners to create artificial shine and slip. It causes severe product buildup over time, requiring harsh sulfates to remove."
+    },
+    {
+        "id": "chem_095",
+        "name": "Menthol & Camphor",
+        "type": "safe",
+        "category": "Cosmetics - Cooling Agent",
+        "profile": "Used in 'cooling' Ayurvedic hair oils (like Navratna) to provide a tingling, cooling sensation. Safe for adults, but can be highly irritating to broken skin or the eyes."
+    },
+    {
+        "id": "chem_096",
+        "name": "Amla Extract (Phyllanthus Emblica)",
+        "type": "safe",
+        "category": "Herbal Extract",
+        "profile": "Indian gooseberry extract. Extremely rich in Vitamin C and antioxidants, highly beneficial for hair follicle strength and scalp health."
+    },
+    {
+        "id": "chem_097",
+        "name": "Mineral Oil (Paraffinum Liquidum)",
+        "type": "toxic",
+        "category": "Cosmetics - Emollient",
+        "profile": "Used in almost all cheap baby oils and body lotions in India. While it seals in moisture, it provides zero nutrients to the skin and can trap dirt, leading to breakouts."
+    },
+    {
+        "id": "chem_098",
+        "name": "Niacinamide",
+        "type": "safe",
+        "category": "Skin Active",
+        "profile": "Vitamin B3. Highly popular in Indian face creams and serums. Exceptionally safe and effective for brightening skin, reducing redness, and strengthening the skin barrier."
+    },
+    {
+        "id": "chem_099",
+        "name": "Octinoxate",
+        "type": "toxic",
+        "category": "Cosmetics - Chemical Sunscreen",
+        "profile": "Used in Indian fairness creams with SPF. A known endocrine disruptor that mimics estrogen in the body and is highly damaging to marine coral reefs."
+    },
+    {
+        "id": "chem_100",
+        "name": "Cetyl Alcohol",
+        "type": "safe",
+        "category": "Fatty Alcohol",
+        "profile": "Unlike drying alcohols, this is a waxy, hydrating 'fatty' alcohol used to thicken lotions and creams. Safe and non-irritating."
+    },
+    {
+        "id": "chem_101",
+        "name": "Stearic Acid",
+        "type": "safe",
+        "category": "Emulsifier",
+        "profile": "A natural fatty acid found in plant and animal fats, used in Indian vanishing creams and shaving creams to bind water and oil together. Completely safe."
+    },
+    {
+        "id": "chem_102",
+        "name": "Propylparaben & Butylparaben",
+        "type": "toxic",
+        "category": "Cosmetics - Long-chain Preservatives",
+        "profile": "Used to extend the shelf life of heavy creams. More highly linked to endocrine (hormone) disruption than shorter-chain parabens. Banned in some countries."
+    },
+    {
+        "id": "chem_103",
+        "name": "Kojic Acid",
+        "type": "toxic",
+        "category": "Skin Brightener",
+        "profile": "A natural byproduct of fermenting malting rice, used in Indian skin-lightening soaps and creams as a safer alternative to hydroquinone. Safe, but can cause sun sensitivity."
+    },
+    {
+        "id": "chem_104",
+        "name": "BHT (Butylated Hydroxytoluene)",
+        "type": "toxic",
+        "category": "Cosmetics - Synthetic Antioxidant",
+        "profile": "Used in hair oils and lipsticks to prevent the oils from going rancid. Suspected endocrine disruptor and linked to organ-system toxicity in high doses."
+    },
+    {
+        "id": "chem_105",
+        "name": "Phenoxyethanol",
+        "type": "toxic",
+        "category": "Cosmetics - Preservative",
+        "profile": "The most common replacement for parabens in modern 'paraben-free' Indian cosmetics. Safe in concentrations under 1%, but can be irritating to infants and highly sensitive skin."
+    },
+    {
+        "id": "chem_106",
+        "name": "Fragrance (Parfum / Sugandhit Dravya)",
+        "type": "toxic",
+        "category": "Cosmetics - Undisclosed Chemicals",
+        "profile": "A loophole term used on almost every Indian cosmetic label. 'Fragrance' can legally hide hundreds of undisclosed synthetic chemicals, including toxic phthalates."
+    },
+    {
+        "id": "chem_107",
+        "name": "Water",
+        "type": "safe",
+        "category": "Base Hydration",
+        "profile": "The universal solvent and base for most food and cosmetic products. Completely safe and essential for hydration."
+    },
+    {
+        "id": "chem_108",
+        "name": "Aqua",
+        "type": "safe",
+        "category": "Base Hydration",
+        "profile": "The INCI (cosmetic) naming convention for purified water. Completely safe and forms the base of most lotions and shampoos."
+    },
+    {
+        "id": "chem_109",
+        "name": "Aloe Vera",
+        "type": "safe",
+        "category": "Botanical Extract",
+        "profile": "A natural plant extract highly prized for its soothing, anti-inflammatory, and hydrating properties. Completely safe."
+    },
+    {
+        "id": "chem_110",
+        "name": "Coconut Oil",
+        "type": "safe",
+        "category": "Natural Emollient",
+        "profile": "A natural edible oil extracted from coconuts. Used in cooking and cosmetics for its rich moisturizing and antimicrobial properties. Completely safe."
+    },
+    {
+        "id": "chem_111",
+        "name": "Sunflower Oil",
+        "type": "safe",
+        "category": "Natural Emollient",
+        "profile": "A light, non-comedogenic oil pressed from sunflower seeds. Rich in Vitamin E and safe for both consumption and topical application."
+    },
+    {
+        "id": "chem_112",
+        "name": "Shea Butter",
+        "type": "safe",
+        "category": "Natural Emollient",
+        "profile": "A fat extracted from the nut of the African shea tree. Highly moisturizing and widely used in premium lotions and lip balms. Completely safe."
+    },
+    {
+        "id": "chem_113",
+        "name": "Flavour enhancer 635 (Disodium 5'-ribonucleotides)",
+        "type": "moderate",
+        "category": "Food - Flavor Enhancer",
+        "profile": "A food additive combining disodium inosinate and disodium guanylate, used to create a synergistic umami effect. May trigger gout or skin rashes in sensitive individuals."
+    },
+    {
+        "id": "chem_114",
+        "name": "Flavour enhancer 621 (Monosodium Glutamate / MSG)",
+        "type": "moderate",
+        "category": "Food - Flavor Enhancer",
+        "profile": "Sodium salt of glutamic acid used to intensify savory flavors. Can cause sensitivity symptoms like headaches, flushing, or sweating in sensitive individuals."
+    },
+    {
+        "id": "chem_115",
+        "name": "Flavour enhancer 627 (Disodium Guanylate)",
+        "type": "moderate",
+        "category": "Food - Flavor Enhancer",
+        "profile": "A flavor enhancer often paired with MSG. Metabolizes into purines, so individuals with gout or uric acid kidney stones should limit consumption."
+    },
+    {
+        "id": "chem_116",
+        "name": "Flavour enhancer 631 (Disodium Inosinate)",
+        "type": "moderate",
+        "category": "Food - Flavor Enhancer",
+        "profile": "A flavor enhancer used in instant noodles, potato chips, and savory snacks. Often combined with monosodium glutamate to boost umami taste."
+    },
+    {
+        "id": "chem_117",
+        "name": "Yeast Extract",
+        "type": "safe",
+        "category": "Food - Flavor Enhancer",
+        "profile": "A natural flavor enhancer derived from yeast cells. Rich in glutamic acid (natural MSG), used to provide rich savory flavors to processed foods."
+    },
+    {
+        "id": "chem_118",
+        "name": "Hydrolyzed Vegetable Protein (HVP)",
+        "type": "moderate",
+        "category": "Food - Protein Source / Flavoring",
+        "profile": "A flavor enhancer created by boiling soy, corn, or wheat in hydrochloric acid. Contains free glutamic acid and can trigger MSG-like sensitivities."
+    },
+    {
+        "id": "chem_119",
+        "name": "Hydrolysed Groundnut Protein",
+        "type": "moderate",
+        "category": "Food - Protein Source / Flavoring",
+        "profile": "Peanut protein chemically broken down into amino acids. Used for flavoring, but presents severe allergy risks for individuals sensitive to peanuts."
+    },
+    {
+        "id": "chem_120",
+        "name": "Textured Vegetable Protein (TVP)",
+        "type": "safe",
+        "category": "Food - Protein Source / Meat Substitute",
+        "profile": "A soy protein derivative used as a meat analogue. Rich in protein and generally safe, though heavily processed."
+    },
+    {
+        "id": "chem_121",
+        "name": "Autolyzed Yeast",
+        "type": "safe",
+        "category": "Food - Flavor Enhancer",
+        "profile": "Yeast that has been allowed to self-digest using its own enzymes. Used as a natural flavoring agent rich in savory glutamic acids."
+    },
+    {
+        "id": "chem_122",
+        "name": "Soy Protein Isolate",
+        "type": "safe",
+        "category": "Food - Protein Source",
+        "profile": "A highly refined soy protein powder. Safe for consumption, though highly processed and a common marker of industrial food products."
+    },
+    {
+        "id": "chem_123",
+        "name": "Colour 150d (Sulfite ammonia caramel)",
+        "type": "moderate",
+        "category": "Food - Artificial Color",
+        "profile": "A dark brown coloring agent produced by heating sugars in the presence of sulfites and ammonium compounds. Can contain 4-MEI, a potential carcinogen in high doses."
+    },
+    {
+        "id": "chem_124",
+        "name": "Colour 150a (Plain caramel)",
+        "type": "safe",
+        "category": "Food - Natural Color",
+        "profile": "A brown food coloring made by heating carbohydrates under controlled conditions. Generally considered safe and free of sulfite/ammonium compounds."
+    },
+    {
+        "id": "chem_125",
+        "name": "Colour 102 (Tartrazine / Yellow 5)",
+        "type": "moderate",
+        "category": "Food - Artificial Color",
+        "profile": "A synthetic yellow azo dye used in foods and drugs. Linked to hyperactive behavior in children and allergic reactions, especially in aspirin-sensitive individuals."
+    },
+    {
+        "id": "chem_126",
+        "name": "Colour 110 (Sunset Yellow FCF / Yellow 6)",
+        "type": "moderate",
+        "category": "Food - Artificial Color",
+        "profile": "A synthetic orange dye used in squashes, sweets, and snacks. Associated with allergic reactions and behavioral changes in sensitive children."
+    },
+    {
+        "id": "chem_127",
+        "name": "Colour 129 (Allura Red AC / Red 40)",
+        "type": "moderate",
+        "category": "Food - Artificial Color",
+        "profile": "A widely used synthetic red food dye. Studied for minor hypersensitivity links and behavioral issues in children."
+    },
+    {
+        "id": "chem_128",
+        "name": "Colour 133 (Brilliant Blue FCF / Blue 1)",
+        "type": "moderate",
+        "category": "Food - Artificial Color",
+        "profile": "A synthetic blue dye used in confectioneries and dairy products. Generally safe in small amounts, though minor hypersensitivity has been reported."
+    },
+    {
+        "id": "chem_129",
+        "name": "Colour 127 (Erythrosine / Red 3)",
+        "type": "toxic",
+        "category": "Food - Artificial Color",
+        "profile": "A synthetic cherry-pink food dye. Banned in many countries for food use due to its link to thyroid tumors and endocrine disruption in animal studies."
+    },
+    {
+        "id": "chem_130",
+        "name": "Colour 171 (Titanium Dioxide)",
+        "type": "toxic",
+        "category": "Food / Cosmetics - Whitening Agent",
+        "profile": "A white pigment used in candies, gum, and sunscreens. Banned in the EU as a food additive due to concerns over genotoxicity and accumulation of nanoparticles in the body."
+    },
+    {
+        "id": "chem_131",
+        "name": "Thickener 412 (Guar Gum)",
+        "type": "safe",
+        "category": "Food - Thickener / Stabilizer",
+        "profile": "A natural seed gum extract used to thicken foods. Promotes digestive health in low quantities, though high doses can cause gastrointestinal discomfort."
+    },
+    {
+        "id": "chem_132",
+        "name": "Thickener 415 (Xanthan Gum)",
+        "type": "safe",
+        "category": "Food - Thickener / Stabilizer",
+        "profile": "A polysaccharide produced through bacterial fermentation. Used as a stabilizing agent. Safe, though large amounts can cause digestive issues."
+    },
+    {
+        "id": "chem_133",
+        "name": "Thickener 407 (Carrageenan)",
+        "type": "moderate",
+        "category": "Food - Thickener / Stabilizer",
+        "profile": "An seaweed extract used to thicken dairy and plant-based milks. Subject to debate over potential to cause gut inflammation and digestive irritation."
+    },
+    {
+        "id": "chem_134",
+        "name": "Thickener 466 (Sodium Carboxymethyl Cellulose)",
+        "type": "moderate",
+        "category": "Food - Thickener / Stabilizer",
+        "profile": "A chemically modified cellulose gum used to thicken foods. May alter gut bacteria composition and trigger mild digestive irritation in large doses."
+    },
+    {
+        "id": "chem_135",
+        "name": "Stabilizer 170 (Calcium Carbonate)",
+        "type": "safe",
+        "category": "Food - Mineral / Stabilizer",
+        "profile": "A dietary mineral used as a firming agent, stabilizer, or white colorant. Safe for consumption and serves as a calcium source."
+    },
+    {
+        "id": "chem_136",
+        "name": "Thickener 508 (Potassium Chloride)",
+        "type": "safe",
+        "category": "Food - Mineral / Gelling Agent",
+        "profile": "A naturally occurring mineral salt used as a gelling agent and sodium substitute. Safe for general consumption, but should be moderated by individuals with kidney issues."
+    },
+    {
+        "id": "chem_137",
+        "name": "Edible Starch",
+        "type": "safe",
+        "category": "Food - Thickener",
+        "profile": "Natural carbohydrate extract from plants (corn, wheat, potato) used to thicken food textures. Completely safe but high in carbohydrates."
+    },
+    {
+        "id": "chem_138",
+        "name": "Modified Corn Starch",
+        "type": "safe",
+        "category": "Food - Thickener",
+        "profile": "Corn starch physically or chemically altered to withstand extreme processing temperatures. Safe, though highly processed."
+    },
+    {
+        "id": "chem_139",
+        "name": "Dextrin",
+        "type": "safe",
+        "category": "Food - Thickener / Fiber",
+        "profile": "A low-molecular-weight carbohydrate produced by the hydrolysis of starch. Used as a crisping agent, adhesive, and thickener. Safe for consumption."
+    },
+    {
+        "id": "chem_140",
+        "name": "Acidity regulator 330 (Citric Acid)",
+        "type": "safe",
+        "category": "Food - Acidity Regulator / Preservative",
+        "profile": "A weak organic acid naturally found in citrus fruits, widely produced industrially. Safe and effective at regulating tartness and preserving freshness."
+    },
+    {
+        "id": "chem_141",
+        "name": "Acidity regulator 500i (Sodium Carbonate)",
+        "type": "safe",
+        "category": "Food - Acidity Regulator",
+        "profile": "An inorganic sodium salt used to control pH and raise dough. Safe for consumption."
+    },
+    {
+        "id": "chem_142",
+        "name": "Acidity regulator 500ii (Sodium Bicarbonate / Baking Soda)",
+        "type": "safe",
+        "category": "Food - Leavening Agent / Acidity Regulator",
+        "profile": "Common baking soda. Used as a leavening agent and pH buffer. Safe and widely used."
+    },
+    {
+        "id": "chem_143",
+        "name": "Acidity regulator 501i (Potassium Carbonate)",
+        "type": "safe",
+        "category": "Food - Acidity Regulator",
+        "profile": "A mineral salt used to regulate acidity in cocoa processing and baking. Safe for consumption."
+    },
+    {
+        "id": "chem_144",
+        "name": "Humectant 451i (Sodium Triphosphate)",
+        "type": "moderate",
+        "category": "Food - Preservative / Humectant",
+        "profile": "A sodium phosphate salt used to retain moisture in seafood and meats. Excess consumption of dietary phosphates is linked to kidney stress and cardiovascular concerns."
+    },
+    {
+        "id": "chem_145",
+        "name": "Humectant 422 (Glycerin / Glycerol)",
+        "type": "safe",
+        "category": "Food / Cosmetics - Humectant",
+        "profile": "A natural sweet-tasting sugar alcohol used to retain moisture in foods and skincare. Completely safe for general use."
+    },
+    {
+        "id": "chem_146",
+        "name": "Acidity regulator 296 (Malic Acid)",
+        "type": "safe",
+        "category": "Food - Acidity Regulator",
+        "profile": "An organic acid naturally present in apples and sour fruits. Safe and used to give foods a sharp, tart taste."
+    },
+    {
+        "id": "chem_147",
+        "name": "Acidity regulator 334 (Tartaric Acid)",
+        "type": "safe",
+        "category": "Food - Acidity Regulator",
+        "profile": "A naturally occurring crystalline organic acid found in grapes and bananas. Safe, used to provide a sour bite to confectioneries."
+    },
+    {
+        "id": "chem_148",
+        "name": "Preservative 211 (Sodium Benzoate)",
+        "type": "moderate",
+        "category": "Food - Preservative",
+        "profile": "A widely used chemical preservative. Can react with vitamin C (ascorbic acid) to form benzene, a known carcinogen, in highly acidic beverages."
+    },
+    {
+        "id": "chem_149",
+        "name": "Preservative 202 (Potassium Sorbate)",
+        "type": "safe",
+        "category": "Food - Preservative",
+        "profile": "A mild chemical preservative used to prevent mold and yeast growth in food and cosmetics. High safety profile and easily metabolized by the body."
+    },
+    {
+        "id": "chem_150",
+        "name": "Preservative 223 (Sodium Metabisulfite)",
+        "type": "moderate",
+        "category": "Food - Preservative / Antioxidant",
+        "profile": "An inorganic salt used to preserve dried fruits and wines. Releases sulfur dioxide, which can trigger severe asthma and allergic reactions in sensitive individuals."
+    },
+    {
+        "id": "chem_151",
+        "name": "Preservative 220 (Sulfur Dioxide)",
+        "type": "moderate",
+        "category": "Food - Preservative",
+        "profile": "A gas used as a preservative to prevent browning and spoilage in dried fruits and wine. A known allergen that can cause severe respiratory distress in asthmatics."
+    },
+    {
+        "id": "chem_152",
+        "name": "Preservative 250 (Sodium Nitrite)",
+        "type": "toxic",
+        "category": "Food - Preservative / Color Fixative",
+        "profile": "A preservative used in cured meats like bacon, hot dogs, and ham. Can form carcinogenic nitrosamines in the body during high-heat cooking."
+    },
+    {
+        "id": "chem_153",
+        "name": "Preservative 320 (Butylated Hydroxyanisole / BHA)",
+        "type": "toxic",
+        "category": "Food - Synthetic Preservative / Antioxidant",
+        "profile": "A synthetic antioxidant used to preserve fats and oils. Classified as a suspected human carcinogen and endocrine disruptor by several health agencies."
+    },
+    {
+        "id": "chem_154",
+        "name": "Preservative 321 (Butylated Hydroxytoluene / BHT)",
+        "type": "toxic",
+        "category": "Food - Synthetic Preservative / Antioxidant",
+        "profile": "A synthetic antioxidant used to prevent rancidity in oils and cereals. Linked to endocrine disruption and organ toxicity in animal studies."
+    },
+    {
+        "id": "chem_155",
+        "name": "Liquid Glucose",
+        "type": "moderate",
+        "category": "Food - Sweetener",
+        "profile": "A concentrated solution of glucose sugar derived from starch. High glycemic index that causes rapid insulin spikes."
+    },
+    {
+        "id": "chem_156",
+        "name": "Corn Syrup Solids",
+        "type": "moderate",
+        "category": "Food - Sweetener",
+        "profile": "Dried corn syrup used as a sweetener and thickener in processed foods. Possesses a very high glycemic index and carries high risks of metabolic syndrome."
+    },
+    {
+        "id": "chem_157",
+        "name": "Sweetener 951 (Aspartame)",
+        "type": "moderate",
+        "category": "Food - Artificial Sweetener",
+        "profile": "Zero-calorie artificial sweetener. Studied for metabolic and neurological effects in sensitive individuals."
+    },
+    {
+        "id": "chem_158",
+        "name": "Sweetener 955 (Sucralose)",
+        "type": "moderate",
+        "category": "Food - Artificial Sweetener",
+        "profile": "An organochlorine artificial sweetener. Safe in general, though concerns exist regarding its impact on gut flora when heated."
+    },
+    {
+        "id": "chem_159",
+        "name": "Sweetener 950 (Acesulfame Potassium / Ace-K)",
+        "type": "moderate",
+        "category": "Food - Artificial Sweetener",
+        "profile": "An artificial sweetener often blended with aspartame. Ongoing research is conducted on its metabolic effects."
+    },
+    {
+        "id": "chem_160",
+        "name": "Hydrogenated Vegetable Oil",
+        "type": "toxic",
+        "category": "Food - Trans Fat Source",
+        "profile": "Vegetable oil treated with hydrogen to make it solid. A primary source of trans fats, which raise bad cholesterol and significantly increase cardiovascular disease risk."
+    },
+    {
+        "id": "chem_161",
+        "name": "Propylene Glycol",
+        "type": "moderate",
+        "category": "Cosmetics/Food - Humectant / Solvent",
+        "profile": "A common synthetic humectant and solvent. While generally safe in small quantities, it is a known skin irritant that can trigger contact dermatitis in sensitive individuals."
+    },
+    {
+        "id": "chem_162",
+        "name": "Propylparaben",
+        "type": "toxic",
+        "category": "Cosmetics - Chemical Preservative",
+        "profile": "A chemical preservative widely used in cosmetics. It is a known endocrine disruptor that can mimic estrogen, potentially interfering with reproductive health."
+    },
+    {
+        "id": "chem_163",
+        "name": "Butylparaben",
+        "type": "toxic",
+        "category": "Cosmetics - Chemical Preservative",
+        "profile": "An alkyl paraben preservative. Exhibits stronger estrogenic activity than methylparaben, linked to hormone disruption and reproductive toxicity."
+    },
+    {
+        "id": "chem_164",
+        "name": "Triclosan",
+        "type": "toxic",
+        "category": "Cosmetics - Antibacterial Agent",
+        "profile": "An antibacterial agent formerly common in soaps and toothpastes. Linked to thyroid hormone disruption, antibiotic resistance, and environmental toxicity."
+    },
+    {
+        "id": "chem_165",
+        "name": "Oxybenzone",
+        "type": "toxic",
+        "category": "Cosmetics - Chemical UV Filter",
+        "profile": "A chemical sunscreen agent. Readily absorbed through the skin, linked to endocrine disruption, and banned in select regions to protect marine coral reefs."
+    },
+    {
+        "id": "chem_166",
+        "name": "Erythritol",
+        "type": "safe",
+        "category": "Food - Sugar Alcohol Sweetener",
+        "profile": "A naturally occurring sugar alcohol sweetener. Has zero calories and does not affect blood sugar, though excessive consumption can cause minor digestive bloating."
+    },
+    {
+        "id": "chem_167",
+        "name": "Xylitol",
+        "type": "safe",
+        "category": "Food - Sugar Alcohol Sweetener",
+        "profile": "A sugar alcohol used in sugar-free gums and oral care. Promotes dental health and is safe for humans, but is highly toxic and lethal to dogs."
+    },
+    {
+        "id": "chem_168",
+        "name": "Stevia",
+        "type": "safe",
+        "category": "Food - Natural Sweetener",
+        "profile": "A natural zero-calorie sweetener extracted from Stevia rebaudiana leaves. Highly safe and popular as a sugar alternative for diabetics."
+    },
+    {
+        "id": "chem_169",
+        "name": "Ascorbic Acid",
+        "type": "safe",
+        "category": "Food - Vitamin / Antioxidant",
+        "profile": "Pure Vitamin C. Functions as a natural antioxidant, dough conditioner, and dietary nutrient. Safe and effective at preventing food browning."
+    },
+    {
+        "id": "chem_170",
+        "name": "Lactic Acid",
+        "type": "safe",
+        "category": "Food/Cosmetics - Exfoliant / Preservative",
+        "profile": "An organic acid produced by natural fermentation. Used as an acidity regulator in foods and a gentle exfoliating Alpha Hydroxy Acid (AHA) in cosmetics."
+    },
+    {
+        "id": "chem_171",
+        "name": "Disodium EDTA",
+        "type": "moderate",
+        "category": "Food/Cosmetics - Chelating Agent",
+        "profile": "A heavy metal chelator used to stabilize cosmetics and foods. Safe in small doses, but can act as a skin penetration enhancer for other harmful chemicals."
+    },
+    {
+        "id": "chem_172",
+        "name": "Diethyl Phthalate",
+        "type": "toxic",
+        "category": "Cosmetics - Plasticizer / Solvent",
+        "profile": "A solvent used to extend the duration of synthetic fragrances. Associated with developmental issues, endocrine disruption, and potential reproductive harm."
+    },
+    {
+        "id": "chem_173",
+        "name": "Sodium Sulfite",
+        "type": "moderate",
+        "category": "Food - Chemical Preservative",
+        "profile": "An inorganic preservative used in dried foods and beverages. Can trigger severe respiratory reactions and asthma attacks in sulfite-sensitive individuals."
+    },
+    {
+        "id": "chem_174",
+        "name": "Sodium Lauryl Sulfoacetate",
+        "type": "safe",
+        "category": "Cosmetics - Surfactant / Foaming Agent",
+        "profile": "A mild, safe biodegradable surfactant derived from coconut oil. Unlike SLS, it is skin-friendly, does not cause severe skin irritation, and is completely safe for sensitive skin."
+    },
+    {
+        "id": "chem_175",
+        "name": "Sodium Cocoyl Isethionate",
+        "type": "safe",
+        "category": "Cosmetics - Surfactant",
+        "profile": "An exceptionally mild surfactant derived from coconut fatty acids, commonly referred to as baby foam. Gently cleanses the skin without stripping moisture."
+    },
+    {
+        "id": "chem_176",
+        "name": "Cocamidopropyl Betaine",
+        "type": "moderate",
+        "category": "Cosmetics - Surfactant",
+        "profile": "An organic surfactant derived from coconut oil. Known to occasionally act as a contact allergen due to manufacturing impurities like amidoamines."
+    },
+    {
+        "id": "chem_177",
+        "name": "Methylisothiazolinone",
+        "type": "toxic",
+        "category": "Cosmetics - Preservative",
+        "profile": "A powerful synthetic biocide preservative. It is a highly potent contact allergen and sensitizer, banned in leave-on cosmetic products in the EU."
+    },
+    {
+        "id": "chem_178",
+        "name": "Diazolidinyl Urea",
+        "type": "toxic",
+        "category": "Cosmetics - Formaldehyde Releaser",
+        "profile": "An antimicrobial preservative. Works by slowly releasing small amounts of formaldehyde over time, posing risks of allergic reactions and contact dermatitis."
+    },
+    {
+        "id": "chem_179",
+        "name": "Imidazolidinyl Urea",
+        "type": "toxic",
+        "category": "Cosmetics - Formaldehyde Releaser",
+        "profile": "A formaldehyde-releasing chemical preservative. Common allergen in cosmetic creams and hair products, linked to skin sensitization."
+    },
+    {
+        "id": "chem_180",
+        "name": "Quaternium-15",
+        "type": "toxic",
+        "category": "Cosmetics - Formaldehyde Releaser",
+        "profile": "A preservative found in hair conditioners and soaps. Acts as a formaldehyde releaser, classified as a human allergen and skin sensitizer."
+    },
+    {
+        "id": "chem_181",
+        "name": "Benzalkonium Chloride",
+        "type": "toxic",
+        "category": "Cosmetics - Preservative / Antiseptic",
+        "profile": "An organic salt used as a preservative and disinfectant. Known to cause severe skin, eye, and respiratory irritation under frequent exposure."
+    },
+    {
+        "id": "chem_182",
+        "name": "Stearalkonium Chloride",
+        "type": "moderate",
+        "category": "Cosmetics - Antistatic Agent",
+        "profile": "A cationic surfactant used in hair conditioners to prevent static. Can cause mild skin and eye irritation in high concentrations."
+    },
+    {
+        "id": "chem_183",
+        "name": "Behentrimonium Chloride",
+        "type": "moderate",
+        "category": "Cosmetics - Hair Conditioning Agent",
+        "profile": "A quaternary ammonium salt. Used to detangle and condition hair. Considered moderately toxic to aquatic life and can cause skin irritation."
+    },
+    {
+        "id": "chem_184",
+        "name": "Retinyl Palmitate",
+        "type": "moderate",
+        "category": "Cosmetics - Vitamin A Derivative",
+        "profile": "A combination of retinol and palmitic acid. While a popular anti-aging active, it can generate free radicals when exposed to UV sunlight, so it should be used at night."
+    },
+    {
+        "id": "chem_185",
+        "name": "Homosalate",
+        "type": "toxic",
+        "category": "Cosmetics - Chemical UV Filter",
+        "profile": "An organic compound used in sunscreens. Shows evidence of endocrine-disrupting activity, mimicking estrogen and accumulating in the body."
+    },
+    {
+        "id": "chem_186",
+        "name": "Octisalate",
+        "type": "moderate",
+        "category": "Cosmetics - Chemical UV Filter",
+        "profile": "A chemical sunscreen agent. Generally well-tolerated, though it can act as a skin penetration enhancer, letting other harmful chemicals cross the dermal barrier."
+    },
+    {
+        "id": "chem_187",
+        "name": "Octocrylene",
+        "type": "toxic",
+        "category": "Cosmetics - Chemical UV Filter",
+        "profile": "A UV-absorbing agent. Known to degrade over time into benzophenone, a toxic chemical linked to hormone disruption and cell mutation."
+    },
+    {
+        "id": "chem_188",
+        "name": "Avobenzone",
+        "type": "moderate",
+        "category": "Cosmetics - Chemical UV Filter",
+        "profile": "A chemical filter providing broad UVA protection. Unstable when exposed to sunlight, requiring stabilizers, and can cause mild skin irritation."
+    },
+    {
+        "id": "chem_189",
+        "name": "Zinc Oxide",
+        "type": "safe",
+        "category": "Cosmetics - Physical UV Filter",
+        "profile": "A natural mineral sunscreen agent. Sits on top of the skin to block UV rays physically. Exceptionally safe, non-irritating, and reef-safe."
+    },
+    {
+        "id": "chem_190",
+        "name": "Iron Oxides",
+        "type": "safe",
+        "category": "Cosmetics - Mineral Pigment",
+        "profile": "Naturally occurring mineral pigments used to color cosmetics. Completely safe, non-toxic, and hypoallergenic."
+    },
+    {
+        "id": "chem_191",
+        "name": "Carbon Black",
+        "type": "toxic",
+        "category": "Cosmetics - Pigment",
+        "profile": "A dark black pigment used in eyeliners and mascaras. Classified as a possible human carcinogen when inhaled in loose powder form."
+    },
+    {
+        "id": "chem_192",
+        "name": "Cyclopentasiloxane",
+        "type": "toxic",
+        "category": "Cosmetics - Silicone Emollient",
+        "profile": "A volatile silicone compound. Poses environmental bioaccumulation concerns; restricted in wash-off cosmetic products in the European Union."
+    },
+    {
+        "id": "chem_193",
+        "name": "Cyclotetrasiloxane",
+        "type": "toxic",
+        "category": "Cosmetics - Silicone Emollient",
+        "profile": "A cyclic silicone compound. Classified as an endocrine disruptor and suspected reproductive toxin in animal studies."
+    },
+    {
+        "id": "chem_194",
+        "name": "Sodium Hyaluronate",
+        "type": "safe",
+        "category": "Cosmetics - Humectant",
+        "profile": "The sodium salt of hyaluronic acid. A highly effective skin-identical humectant that binds moisture to the skin. Completely safe."
+    },
+    {
+        "id": "chem_195",
+        "name": "Tocopheryl Acetate",
+        "type": "safe",
+        "category": "Cosmetics/Food - Vitamin E Derivative",
+        "profile": "A stable form of Vitamin E. Functions as an antioxidant to protect skin from free radicals and preserve oils. Extremely safe."
+    },
+    {
+        "id": "chem_196",
+        "name": "Panthenol",
+        "type": "safe",
+        "category": "Cosmetics - Humectant / Vitamin B5",
+        "profile": "Pro-vitamin B5. Acts as a powerful skin-soothing humectant that aids in skin barrier repair and wound healing. Completely safe."
+    },
+    {
+        "id": "chem_197",
+        "name": "Salicylic Acid",
+        "type": "safe",
+        "category": "Cosmetics - Exfoliant / BHA",
+        "profile": "A beta hydroxy acid derived from willow bark. Clears pores and treats acne. Safe for topical cosmetic use, though should be avoided in high oral doses."
+    },
+    {
+        "id": "chem_198",
+        "name": "Glycolic Acid",
+        "type": "safe",
+        "category": "Cosmetics - Exfoliant / AHA",
+        "profile": "An alpha hydroxy acid derived from sugar cane. Promotes skin cell turnover. Safe, though increases skin sensitivity to sunlight."
+    },
+    {
+        "id": "chem_199",
+        "name": "Allantoin",
+        "type": "safe",
+        "category": "Cosmetics - Skin Conditioning Agent",
+        "profile": "An organic compound that soothes and protects the skin, promoting cell regeneration. Highly safe and non-irritating."
+    },
+    {
+        "id": "chem_200",
+        "name": "Sodium Dehydroacetate",
+        "type": "safe",
+        "category": "Cosmetics - Preservative",
+        "profile": "A sodium salt used as a preservative in cosmetics. Effective at preventing microbial growth and possesses a high safety profile."
+    },
+    {
+        "id": "chem_201",
+        "name": "Benzyl Alcohol",
+        "type": "moderate",
+        "category": "Cosmetics - Preservative / Allergen",
+        "profile": "An organic alcohol used as a preservative and fragrance component. Can act as a contact allergen for individuals with eczema or sensitive skin."
+    },
+    {
+        "id": "chem_202",
+        "name": "Sodium Lauroyl Sarcosinate",
+        "type": "safe",
+        "category": "Cosmetics - Surfactant",
+        "profile": "An amino-acid derived foaming surfactant. Exceptionally mild and safe, used in toothpastes and shampoos as a skin-friendly alternative to sulfates."
+    },
+    {
+        "id": "chem_203",
+        "name": "Guar Hydroxypropyltrimonium Chloride",
+        "type": "safe",
+        "category": "Cosmetics - Conditioning Agent",
+        "profile": "A water-soluble quaternary ammonium derivative of guar gum. Detangles hair and provides smooth texture. Safe and non-toxic."
+    },
+    {
+        "id": "chem_204",
+        "name": "Pectin",
+        "type": "safe",
+        "category": "Food - Thickener / Gelling Agent",
+        "profile": "A structural heteropolysaccharide extracted from citrus fruits and apples. Used as a natural gelling agent in jams and jellies. Highly safe."
+    },
+    {
+        "id": "chem_205",
+        "name": "Agar Agar",
+        "type": "safe",
+        "category": "Food - Gelling Agent / Thickener",
+        "profile": "A natural gelatinous substance derived from red algae. Used as a plant-based vegetarian gelatin substitute. Completely safe."
+    },
+    {
+        "id": "chem_206",
+        "name": "Calcium Alginate",
+        "type": "safe",
+        "category": "Food - Stabilizer",
+        "profile": "An insoluble gelatinous substance extracted from brown algae. Used as a safe food stabilizer and firming agent."
+    },
+    {
+        "id": "chem_207",
+        "name": "Locust Bean Gum",
+        "type": "safe",
+        "category": "Food - Thickener / Stabilizer",
+        "profile": "A natural vegetable gum extracted from carob tree seeds. Safe, fiber-rich, and used to thicken dairy products and dressings."
+    },
+    {
+        "id": "chem_208",
+        "name": "Gellan Gum",
+        "type": "safe",
+        "category": "Food - Thickener / Stabilizer",
+        "profile": "A water-soluble polysaccharide produced by bacterial fermentation. Safe, vegetarian gelling agent used in dairy alternatives."
+    },
+    {
+        "id": "chem_209",
+        "name": "Gum Arabic",
+        "type": "safe",
+        "category": "Food - Stabilizer / Emulsifier",
+        "profile": "A natural gum made of hardened sap from acacia trees. Used as a stabilizer in soft drinks and candies. Completely safe."
+    },
+    {
+        "id": "chem_210",
+        "name": "Sodium Hexametaphosphate",
+        "type": "moderate",
+        "category": "Food - Emulsifier / Sequestrant",
+        "profile": "A mixture of polymeric metaphosphates. Used to preserve food textures. High dietary intake can increase phosphate loads, impacting kidney health."
+    },
+    {
+        "id": "chem_211",
+        "name": "Tetrasodium Pyrophosphate",
+        "type": "moderate",
+        "category": "Food - Emulsifier / Buffer",
+        "profile": "A chemical compound used as a buffering agent and protein stabilizer. Moderation is advised to prevent excess phosphorus intake."
+    },
+    {
+        "id": "chem_212",
+        "name": "Disodium Phosphate",
+        "type": "moderate",
+        "category": "Food - Acidity Regulator / Stabilizer",
+        "profile": "A sodium salt of phosphoric acid. Common in processed cheese and evaporated milk. Elevated phosphate intake is linked to cardiovascular calcification."
+    },
+    {
+        "id": "chem_213",
+        "name": "Monopotassium Phosphate",
+        "type": "safe",
+        "category": "Food - Nutrient / Buffer",
+        "profile": "A soluble salt used as a food additive and source of potassium. Completely safe when consumed within standard dietary guidelines."
+    },
+    {
+        "id": "chem_214",
+        "name": "Sodium Propionate",
+        "type": "safe",
+        "category": "Food - Preservative",
+        "profile": "A sodium salt of propionic acid. Safely prevents mold growth in bakery products and does not accumulate in the body."
+    },
+    {
+        "id": "chem_215",
+        "name": "Natamycin",
+        "type": "safe",
+        "category": "Food - Natural Preservative",
+        "profile": "A naturally occurring antifungal agent produced by soil bacteria. Used to prevent mold growth on cheese rinds and sausages. Safe."
+    },
+    {
+        "id": "chem_216",
+        "name": "Sorbic Acid",
+        "type": "safe",
+        "category": "Food - Preservative",
+        "profile": "A natural organic acid widely used as an antimicrobial food preservative. High safety profile and easily metabolized by the human body."
+    },
+    {
+        "id": "chem_217",
+        "name": "Calcium Acetate",
+        "type": "safe",
+        "category": "Food - Preservative / Sequestrant",
+        "profile": "A calcium salt of acetic acid. Used to prevent mold in baking and regulate acidity. Completely safe."
+    },
+    {
+        "id": "chem_218",
+        "name": "Boric Acid",
+        "type": "toxic",
+        "category": "Food/Cosmetics - Antiseptic / Preservative",
+        "profile": "A weak acid of boron. Banned as a food preservative worldwide due to systemic toxicity, hormone disruption, and accumulation in organs."
+    },
+    {
+        "id": "chem_219",
+        "name": "Neotame",
+        "type": "moderate",
+        "category": "Food - Artificial Sweetener",
+        "profile": "A high-intensity artificial sweetener derived from aspartame. Extremely sweet, under ongoing review for long-term metabolic safety."
+    },
+    {
+        "id": "chem_220",
+        "name": "Advantame",
+        "type": "moderate",
+        "category": "Food - Artificial Sweetener",
+        "profile": "An ultra-high intensity sweetener derived from aspartame and vanillin. Metabolized safely, though subject to standard sweetener regulations."
+    },
+    {
+        "id": "chem_221",
+        "name": "Thaumatin",
+        "type": "safe",
+        "category": "Food - Natural Sweetener / Modifier",
+        "profile": "A low-calorie natural sweet protein extracted from the katemfe fruit of West Africa. Completely safe and highly potent."
+    },
+    {
+        "id": "chem_222",
+        "name": "Isomalt",
+        "type": "safe",
+        "category": "Food - Sugar Alcohol Sweetener",
+        "profile": "A sugar substitute derived from sugar beets. Has minimal impact on blood sugar, though excessive consumption can lead to laxative effects."
+    },
+    {
+        "id": "chem_223",
+        "name": "Lactitol",
+        "type": "safe",
+        "category": "Food - Sugar Alcohol Sweetener",
+        "profile": "A sugar alcohol used in low-calorie foods. Promotes dental health and has low glycemic impact, but can cause gas and bloating in high doses."
+    },
+    {
+        "id": "chem_224",
+        "name": "Mannitol",
+        "type": "safe",
+        "category": "Food - Sugar Alcohol Sweetener",
+        "profile": "A sugar alcohol sweetener and humectant. Safe for consumption, commonly used in sugar-free gum, though can cause mild digestive bloating."
+    },
+    {
+        "id": "chem_225",
+        "name": "Sodium Cocoyl Glycinate",
+        "type": "safe",
+        "category": "Cosmetics - Surfactant",
+        "profile": "A mild amino acid-based surfactant derived from coconut. Commonly used in premium facewashes and baby soaps. Highly biodegradable and extremely gentle on the skin."
+    },
+    {
+        "id": "chem_226",
+        "name": "Potassium Iodate",
+        "type": "moderate",
+        "category": "Food - Dough Conditioner / Iodine Source",
+        "profile": "Used in bakery items and iodized table salt. While iodine is essential, excessive intake of potassium iodate can lead to thyroid dysfunction and is banned as a bread additive in some countries."
+    },
+    {
+        "id": "chem_227",
+        "name": "Polyglycerol Polyricinoleate (PGPR)",
+        "type": "moderate",
+        "category": "Food - Emulsifier",
+        "profile": "A cheap emulsifier derived from castor bean oil, widely used in Indian chocolates to reduce cocoa butter usage. Considered safe in moderation, but high intake can cause mild digestive issues."
+    },
+    {
+        "id": "chem_228",
+        "name": "Cocoamidopropyl Betaine (CAPB)",
+        "type": "moderate",
+        "category": "Cosmetics - Foaming Agent",
+        "profile": "A synthetic surfactant derived from coconut oil, common in Indian facewashes and shampoos. Much gentler than SLS, but can cause contact allergies in individuals sensitive to processing impurities."
+    },
+    {
+        "id": "chem_229",
+        "name": "BHA (Butylated Hydroxyanisole)",
+        "type": "toxic",
+        "category": "Food/Cosmetics - Synthetic Preservative",
+        "profile": "A synthetic antioxidant used to preserve oils and fats in packaged snacks and cosmetics. Classified as a possible human carcinogen by the WHO/IARC and an endocrine disruptor."
+    },
+    {
+        "id": "chem_230",
+        "name": "Guar Gum",
+        "type": "safe",
+        "category": "Food - Thickener / Stabilizer",
+        "profile": "A natural seed polysaccharide extracted from the guar bean, widely cultivated in India. Used as a binder in instant noodles (like Maggi) and sauces. Highly safe and acts as a prebiotic fiber."
+    },
+    {
+        "id": "chem_231",
+        "name": "Potassium Carbonate",
+        "type": "safe",
+        "category": "Food - Acidity Regulator / Stabilizer",
+        "profile": "An inorganic salt commonly used as an acidity regulator and stabilizer in baked goods, noodles, and cocoa processing. High safety profile and completely non-toxic."
+    },
+    {
+        "id": "chem_232",
+        "name": "Calcium Propionate",
+        "type": "safe",
+        "category": "Food - Preservative",
+        "profile": "A calcium salt of propionic acid, used to preserve bread and baked goods by inhibiting mold growth. Safe and common in commercial baking."
+    },
+    {
+        "id": "chem_233",
+        "name": "Trisodium Citrate",
+        "type": "safe",
+        "category": "Food - Acidity Regulator / Emulsifier",
+        "profile": "A sodium salt of citric acid. Widely used in cheese products, beverages, and processed foods as an acidity regulator, emulsifier, and flavoring agent. Very safe."
+    },
+    {
+        "id": "chem_234",
+        "name": "Calcium Lactate",
+        "type": "safe",
+        "category": "Food - Firming Agent / Nutrient",
+        "profile": "A safe calcium salt of lactic acid. Used to add calcium to foods and act as a firming agent in canned vegetables and fruits. Also used in molecular gastronomy."
+    },
+    {
+        "id": "chem_235",
+        "name": "Lactic Acid",
+        "type": "safe",
+        "category": "Food - Acidulant / Preservative",
+        "profile": "A naturally occurring organic acid produced by bacterial fermentation of carbohydrates. Common in sourdough, yogurt, pickles, and sauerkraut for flavor and preservation."
+    },
+    {
+        "id": "chem_236",
+        "name": "Potassium Chloride",
+        "type": "moderate",
+        "category": "Food - Salt Substitute / Nutrient",
+        "profile": "Used as a sodium-free salt substitute and potassium supplement. Safe for most people, but high doses can be harmful to individuals with kidney problems or certain heart conditions."
+    },
+    {
+        "id": "chem_237",
+        "name": "Sodium Benzoate",
+        "type": "moderate",
+        "category": "Food/Cosmetics - Preservative",
+        "profile": "A common synthetic preservative used in acidic foods and beverages. Can form benzene, a carcinogen, in the presence of Vitamin C and heat. Moderation recommended."
+    },
+    {
+        "id": "chem_238",
+        "name": "Potassium Sorbate",
+        "type": "safe",
+        "category": "Food - Preservative",
+        "profile": "A natural food preservative used to prevent mold and yeast growth in cheese, baked goods, and wine. Considered very safe and one of the best preservatives available."
+    },
+    {
+        "id": "chem_239",
+        "name": "Xylitol",
+        "type": "toxic",
+        "category": "Food - Sugar Alcohol / Sweetener",
+        "profile": "A natural sugar alcohol used in chewing gum and diabetic foods. Highly toxic to dogs (causing hypoglycemia and liver failure) and can cause digestive upset in humans."
+    },
+    {
+        "id": "chem_240",
+        "name": "Lactoferrin",
+        "type": "safe",
+        "category": "Food - Nutrient / Immune Support",
+        "profile": "A protein found in human milk and dairy products. Used as a functional ingredient in infant formulas and supplements for its antimicrobial and immune-boosting properties."
+    },
+    {
+        "id": "chem_241",
+        "name": "Inulin",
+        "type": "safe",
+        "category": "Food - Dietary Fiber / Prebiotic",
+        "profile": "A natural prebiotic fiber extracted from chicory root. Used to add fiber and a slightly sweet taste to processed foods. Supports gut health."
+    },
+    {
+        "id": "chem_242",
+        "name": "Beta-Carotene",
+        "type": "safe",
+        "category": "Food - Colorant / Nutrient",
+        "profile": "A plant pigment that the body converts into Vitamin A. Used as a natural orange/yellow food colorant and nutritional supplement. Very safe."
+    },
+    {
+        "id": "chem_243",
+        "name": "Alpha-Tocopherol",
+        "type": "safe",
+        "category": "Food - Antioxidant / Nutrient",
+        "profile": "Synthetic form of Vitamin E. Used as an antioxidant to preserve oils and fats in foods and cosmetics. Completely safe."
+    },
+    {
+        "id": "chem_244",
+        "name": "Ascorbic Acid",
+        "type": "safe",
+        "category": "Food - Nutrient / Antioxidant",
+        "profile": "Common name for Vitamin C. A powerful antioxidant used as a preservative and nutritional supplement in countless food products."
+    },
+    {
+        "id": "chem_245",
+        "name": "Lecithin",
+        "type": "safe",
+        "category": "Food - Emulsifier",
+        "profile": "A natural emulsifier derived from soybeans or sunflower seeds. Essential for stabilizing oil and water mixtures in chocolate, baked goods, and salad dressings."
+    },
+    {
+        "id": "chem_246",
+        "name": "Calcium Chloride",
+        "type": "safe",
+        "category": "Food - Firming Agent / Electrolyte",
+        "profile": "Used in pickle making and brewing to add firmness to vegetables and enhance fermentation. Also used as an electrolyte in sports drinks. Safe for consumption."
+    },
+    {
+        "id": "chem_247",
+        "name": "Titanium Dioxide (E171)",
+        "type": "moderate",
+        "category": "Food/Cosmetics - Whitening Agent",
+        "profile": "A synthetic white pigment used to whiten candies, dairy products, and cosmetics. Classified as a possible carcinogen (IARC Group 2B) when inhaled. Its use in food is banned in the EU."
+    },
+    {
+        "id": "chem_248",
+        "name": "Carmine / Cochineal Extract",
+        "type": "moderate",
+        "category": "Food - Natural Colorant",
+        "profile": "A vibrant red pigment derived from crushed cochineal beetles. While natural, it is a major allergen for some individuals, causing severe reactions and anaphylaxis."
+    },
+    {
+        "id": "chem_249",
+        "name": "Turmeric Extract (Curcumin)",
+        "type": "safe",
+        "category": "Food - Natural Colorant / Spice",
+        "profile": "A natural yellow/orange pigment extracted from turmeric root. Widely used in Indian cuisine and food coloring due to its safety and anti-inflammatory properties."
+    },
+    {
+        "id": "chem_250",
+        "name": "Quillaia Extract",
+        "type": "safe",
+        "category": "Food - Natural Foaming Agent",
+        "profile": "A natural foaming agent derived from the bark of the Quillaia tree. Used in root beers and certain soft drinks to create and stabilize foam. Safe for consumption."
+    },
+    {
+        "id": "chem_251",
+        "name": "Citrus Fiber",
+        "type": "safe",
+        "category": "Food - Dietary Fiber / Thickener",
+        "profile": "A plant-based fiber extracted from citrus peels. Used to improve texture, stabilize products, and add fiber to juices and dairy items. Very safe."
+    },
+    {
+        "id": "chem_252",
+        "name": "Gellan Gum",
+        "type": "safe",
+        "category": "Food - Gelling Agent",
+        "profile": "A vegan gelling agent produced by bacterial fermentation. Used in vegan jellies, puddings, and dairy alternatives to create desired texture."
+    },
+    {
+        "id": "chem_253",
+        "name": "Carrageenan",
+        "type": "moderate",
+        "category": "Food - Thickener / Gelling Agent",
+        "profile": "A stabilizer and thickener extracted from red seaweed. Widely used in dairy and dairy-alternative products. Some studies suggest it may cause digestive inflammation in sensitive individuals."
+    },
+    {
+        "id": "chem_254",
+        "name": "Turmeric Oleoresin",
+        "type": "safe",
+        "category": "Food - Natural Colorant",
+        "profile": "A natural spice extract derived from turmeric root. Used as a vibrant yellow colorant in curries, mustard, and food products. Contains curcuminoids known for their health benefits."
+    },
+    {
+        "id": "chem_255",
+        "name": "Paprika Extract",
+        "type": "safe",
+        "category": "Food - Natural Colorant",
+        "profile": "A vibrant orange-red natural colorant extracted from paprika peppers. Widely used in snacks, sausages, and spice blends. Contains capsaicinoids and carotenoids."
+    },
+    {
+        "id": "chem_256",
+        "name": "Lutein",
+        "type": "safe",
+        "category": "Food - Natural Colorant / Nutrient",
+        "profile": "A natural xanthophyll pigment found in green leafy vegetables and egg yolks. Used as a natural yellow-orange colorant and nutritional supplement for eye health."
+    },
+    {
+        "id": "chem_257",
+        "name": "Annatto",
+        "type": "safe",
+        "category": "Food - Natural Colorant",
+        "profile": "A natural food dye derived from the seeds of the achiote tree. Produces yellow-orange-red colors and is used in cheese, butter, and snacks."
+    },
+    {
+        "id": "chem_258",
+        "name": "Cochineal",
+        "type": "moderate",
+        "category": "Food - Natural Colorant",
+        "profile": "A vibrant red dye derived from crushed cochineal beetles. While natural, it can cause allergic reactions in sensitive individuals."
+    },
+    {
+        "id": "chem_259",
+        "name": "Carmine Lake",
+        "type": "moderate",
+        "category": "Food - Natural Colorant",
+        "profile": "A lake pigment made from carmine, used for stable red coloring in cosmetics and foods. Potential allergen for some individuals."
+    },
+    {
+        "id": "chem_260",
+        "name": "Beetroot Red",
+        "type": "safe",
+        "category": "Food - Natural Colorant",
+        "profile": "A natural red food coloring derived from beetroot. Used in yogurts, candies, and dairy products. Stable at cool temperatures but sensitive to heat."
+    },
+    {
+        "id": "chem_261",
+        "name": "Anthocyanins",
+        "type": "safe",
+        "category": "Food - Natural Colorant",
+        "profile": "Water-soluble pigments found in fruits, berries, and vegetables. Provide red, purple, and blue colors and have antioxidant properties."
+    },
+    {
+        "id": "chem_262",
+        "name": "Black Carrot Extract",
+        "type": "safe",
+        "category": "Food - Natural Colorant",
+        "profile": "A natural colorant derived from black carrots. Provides red-purple hues and is used in beverages, candies, and processed foods."
+    },
+    {
+        "id": "chem_263",
+        "name": "Red Cabbage Extract",
+        "type": "safe",
+        "category": "Food - Natural Colorant",
+        "profile": "A natural pH-sensitive pigment extracted from red cabbage. Provides red, purple, or blue hues depending on acidity. Safe for consumption."
+    },
+    {
+        "id": "chem_264",
+        "name": "Rice Starch",
+        "type": "safe",
+        "category": "Food - Thickener / Bulking Agent",
+        "profile": "A natural starch extracted from rice grains. Used as a thickener, binder, and texture enhancer in gluten-free products and baby foods."
+    },
+    {
+        "id": "chem_265",
+        "name": "Potato Starch",
+        "type": "safe",
+        "category": "Food - Thickener / Binder",
+        "profile": "A gluten-free starch extracted from potatoes. Used as a thickening and binding agent in soups, sauces, and baked goods."
+    },
+    {
+        "id": "chem_266",
+        "name": "Tapioca Starch",
+        "type": "safe",
+        "category": "Food - Thickener / Binder",
+        "profile": "A starch extracted from cassava root. Used as a gluten-free thickener and texturizer in baked goods, puddings, and sauces."
+    },
+    {
+        "id": "chem_267",
+        "name": "Corn Starch",
+        "type": "safe",
+        "category": "Food - Thickener / Binder",
+        "profile": "A starch derived from corn kernels. Used widely as a thickening agent, stabilizer, and ingredient in processed foods."
+    },
+    {
+        "id": "chem_268",
+        "name": "Modified Starch",
+        "type": "safe",
+        "category": "Food - Thickener / Stabilizer",
+        "profile": "Starches chemically modified to improve texture, stability, and viscosity. Common in dairy products, snacks, and sauces."
+    },
+    {
+        "id": "chem_269",
+        "name": "Modified Waxy Maize",
+        "type": "safe",
+        "category": "Food - Thickener / Stabilizer",
+        "profile": "A type of corn starch modified to enhance texture and stability. Commonly used in dairy products, sauces, and baby foods."
+    },
+    {
+        "id": "chem_270",
+        "name": "Dextrose",
+        "type": "safe",
+        "category": "Food - Sweetener / Energy Source",
+        "profile": "A simple sugar identical to glucose. Used as a sweetener, energy source, and preservative in beverages, candies, and processed foods."
+    },
+    {
+        "id": "chem_271",
+        "name": "Maltodextrin",
+        "type": "safe",
+        "category": "Food - Bulking Agent",
+        "profile": "A polysaccharide processed from starch. Used as a thickener, bulking agent, and flavor carrier in snacks, beverages, and supplements."
+    },
+    {
+        "id": "chem_272",
+        "name": "Fructose",
+        "type": "safe",
+        "category": "Food - Sweetener",
+        "profile": "A naturally occurring sugar found in fruits. Used as a sweetener in processed foods. High intake may contribute to health issues."
+    },
+    {
+        "id": "chem_273",
+        "name": "Glucose Syrup",
+        "type": "safe",
+        "category": "Food - Sweetener",
+        "profile": "A viscous sugar syrup made from starch hydrolysis. Used as a sweetener and preservative in confectionery, baked goods, and jams."
+    },
+    {
+        "id": "chem_274",
+        "name": "Glucose-Fructose Syrup",
+        "type": "moderate",
+        "category": "Food - Sweetener",
+        "profile": "A sweetener blend of glucose and fructose. Used widely in soft drinks and processed foods. Linked to increased risks of obesity and type 2 diabetes."
+    },
+    {
+        "id": "chem_275",
+        "name": "Invert Sugar Syrup",
+        "type": "safe",
+        "category": "Food - Sweetener",
+        "profile": "A syrup made by hydrolyzing sucrose into glucose and fructose. Used as a sweetener and humectant in confectionery and baked goods."
+    },
+    {
+        "id": "chem_276",
+        "name": "Yeast Extract",
+        "type": "safe",
+        "category": "Food - Flavor Enhancer",
+        "profile": "A natural flavor enhancer derived from yeast cells, containing naturally occurring glutamates. Used to add rich umami flavor to savory foods, snacks, and soups."
+    },
+    {
+        "id": "chem_277",
+        "name": "MSG (Monosodium Glutamate)",
+        "type": "moderate",
+        "category": "Food - Flavor Enhancer",
+        "profile": "A common flavor enhancer that adds savory (umami) taste. While generally safe for most, some individuals report sensitivity, experiencing symptoms like headache and flushing."
+    },
+    {
+        "id": "chem_278",
+        "name": "Malt Extract",
+        "type": "safe",
+        "category": "Food - Flavoring / Maltose Source",
+        "profile": "A viscous syrup extracted from malted barley. Used as a natural sweetener, flavoring agent, and source of maltose in baked goods, malt drinks, and cereals."
+    },
+    {
+        "id": "chem_279",
+        "name": "L-Lysine Monohydrochloride",
+        "type": "safe",
+        "category": "Food - Nutrient / Flavor Enhancer",
+        "profile": "An essential amino acid supplement used to enhance flavor (especially in combination with MSG) and as a nutritional supplement in foods and supplements."
+    },
+    {
+        "id": "chem_280",
+        "name": "Lecithin Powder",
+        "type": "safe",
+        "category": "Food - Emulsifier",
+        "profile": "A natural emulsifier derived from soybeans or sunflower seeds. Used to blend fats and water in processed foods, imparting a smooth texture."
+    },
+    {
+        "id": "chem_281",
+        "name": "Ammonium Carbonate",
+        "type": "safe",
+        "category": "Food - Leavening Agent",
+        "profile": "A leavening agent used in baking, especially in crackers and cookies. Releases carbon dioxide when heated, providing lift. Considered safe in food quantities."
+    },
+    {
+        "id": "chem_282",
+        "name": "Almond Powder",
+        "type": "safe",
+        "category": "Food - Flavor / Nutrition",
+        "profile": "Finely ground almonds used to add nutty flavor, texture, and nutritional value to baked goods, sauces, and dairy products."
+    },
+    {
+        "id": "chem_283",
+        "name": "Modified Food Starch",
+        "type": "safe",
+        "category": "Food - Thickener / Stabilizer",
+        "profile": "Corn or potato starch chemically modified to improve texture, stability, and viscosity. Commonly used in dairy products, sauces, and processed foods."
+    },
+    {
+        "id": "chem_284",
+        "name": "Sorbitol",
+        "type": "safe",
+        "category": "Food - Sugar Alcohol / Sweetener",
+        "profile": "A sugar alcohol sweetener used in sugar-free candies, chewing gum, and diabetic foods. Safe in moderation, but can cause digestive issues (gas, bloating) in large amounts."
+    },
+    {
+        "id": "chem_285",
+        "name": "Sodium Stearoyl Lactylate (SSL)",
+        "type": "safe",
+        "category": "Food - Emulsifier",
+        "profile": "A common emulsifier and dough conditioner used in baked goods, whipped toppings, and processed potato products. Generally recognized as safe (GRAS)."
+    },
+    {
+        "id": "chem_286",
+        "name": "Dicalcium Phosphate (E341ii)",
+        "type": "safe",
+        "category": "Food - Nutrient / Leavening Agent",
+        "profile": "A calcium salt used as a nutritional supplement (calcium source), baking powder component, and dough stabilizer. Safe for consumption."
+    },
+    {
+        "id": "chem_287",
+        "name": "Mono- and Diglycerides of Fatty Acids",
+        "type": "safe",
+        "category": "Food - Emulsifier",
+        "profile": "Fat-derived emulsifiers used in baked goods, margarine, and ice cream to stabilize texture and prevent separation. Very safe and naturally occurring."
+    },
+    {
+        "id": "chem_288",
+        "name": "Soya Protein Isolate",
+        "type": "safe",
+        "category": "Food - Nutrient / Texture Agent",
+        "profile": "A concentrated protein derived from soybeans. Used as a protein supplement and texturizer in processed meats, baked goods, and dairy alternatives."
+    },
+    {
+        "id": "chem_289",
+        "name": "Wheat Fibre",
+        "type": "safe",
+        "category": "Food - Dietary Fiber",
+        "profile": "Plant-based fiber extracted from wheat. Used to increase fiber content in baked goods, snacks, and breakfast cereals. Safe for most individuals."
+    },
+    {
+        "id": "chem_290",
+        "name": "Cocoa Solids",
+        "type": "safe",
+        "category": "Food - Flavor / Antioxidant",
+        "profile": "Derived from roasted cocoa beans, cocoa solids provide chocolate flavor and are rich in antioxidants called flavonoids. Considered safe and healthy in moderation."
+    },
+    {
+        "id": "chem_291",
+        "name": "Sesame Powder",
+        "type": "safe",
+        "category": "Food - Flavor / Nutrient",
+        "profile": "Ground sesame seeds used to add nutty flavor and texture to snacks, baked goods, and toppings. Contains healthy fats and minerals."
+    },
+    {
+        "id": "chem_292",
+        "name": "Milk Solids Non Fat (MSNF)",
+        "type": "safe",
+        "category": "Food - Nutrient / Texture Agent",
+        "profile": "Skim milk powder used to add protein, calcium, and texture to processed foods like baked goods, dairy products, and sauces."
+    },
+    {
+        "id": "chem_293",
+        "name": "Hydrogenated Vegetable Oil",
+        "type": "moderate",
+        "category": "Food - Fat / Texture Agent",
+        "profile": "Vegetable oils chemically altered to be solid at room temperature. May contain trans fats, which are linked to heart disease. Partially hydrogenated oils are being phased out globally."
+    },
+    {
+        "id": "chem_294",
+        "name": "Interesterified Fat",
+        "type": "safe",
+        "category": "Food - Fat / Texture Agent",
+        "profile": "Fats created by rearranging fatty acids of different oils. Used to modify texture and melting properties in processed foods. Considered a healthier alternative to trans fats."
+    },
+    {
+        "id": "chem_295",
+        "name": "Shortening",
+        "type": "moderate",
+        "category": "Food - Fat / Texture Agent",
+        "profile": "Usually hydrogenated vegetable oil used for baking. May contain trans fats depending on the type. Check label for \"partially hydrogenated\" oils."
+    },
+    {
+        "id": "chem_296",
+        "name": "Edible Common Salt",
+        "type": "moderate",
+        "category": "Food - Flavor / Additive",
+        "profile": "Common salt (sodium chloride), essential nutrient but high intake is linked to blood pressure issues and cardiovascular risks."
+    },
+    {
+        "id": "chem_297",
+        "name": "Sodium Ascorbate",
+        "type": "safe",
+        "category": "Food - Nutrient / Antioxidant",
+        "profile": "Salt form of Vitamin C. Used as an antioxidant and preservative. Safe for consumption and can help extend shelf life of products."
+    },
+    {
+        "id": "chem_298",
+        "name": "Soy Lecithin",
+        "type": "safe",
+        "category": "Food - Emulsifier",
+        "profile": "A widely used emulsifier derived from soybeans. It helps stabilize food products, blending fats and water, and is common in chocolate, salad dressings, and baked goods. Very safe."
+    },
+    {
+        "id": "chem_299",
+        "name": "L-Theanine",
+        "type": "safe",
+        "category": "Food - Nutrient / Amino Acid",
+        "profile": "An amino acid found primarily in tea leaves, known for its calming and focus-enhancing effects without drowsiness. Used in beverages, supplements, and some functional foods."
+    },
+    {
+        "id": "chem_300",
+        "name": "Modified Tapioca Starch",
+        "type": "safe",
+        "category": "Food - Thickener",
+        "profile": "A starch derived from cassava root that has been chemically modified to improve texture, stability, and viscosity. Commonly used in sauces, soups, and baked goods."
+    },
+    {
+        "id": "chem_301",
+        "name": "D-Glucose",
+        "type": "safe",
+        "category": "Food - Sweetener/Humectant",
+        "profile": "D-Glucose is a simple sugar and essential monosaccharide used as a sweetener or humectant; it is generally recognized as safe for consumption and topical application."
+    },
+    {
+        "id": "chem_302",
+        "name": "Fructose",
+        "type": "safe",
+        "category": "Food - Sweetener",
+        "profile": "Levulose is another name for fructose, a naturally occurring monosaccharide found in fruits and honey used as a sweetening agent. It is generally recognized as safe for consumption, though excessive intake is associated with metabolic health concerns."
+    },
+    {
+        "id": "chem_303",
+        "name": "Wheat Flour",
+        "type": "safe",
+        "category": "Food - Ingredient",
+        "profile": "A common food ingredient used as a thickening agent, binder, or bulk filler. It is safe for the general population but contains gluten, posing a health risk to individuals with celiac disease or gluten sensitivity."
+    },
+    {
+        "id": "chem_304",
+        "name": "Sodium Chloride",
+        "type": "safe",
+        "category": "Food - Flavor Enhancer/Preservative",
+        "profile": "Sodium chloride is a common mineral used as a flavor enhancer and preservative. While generally recognized as safe, excessive consumption can contribute to hypertension and cardiovascular issues in some individuals."
+    },
+    {
+        "id": "chem_305",
+        "name": "Hydrolyzed Peanut Protein",
+        "type": "moderate",
+        "category": "Cosmetic - Skin Conditioning Agent / Food - Additive",
+        "profile": "This ingredient is derived from peanuts and is used to condition skin and hair or enhance food texture. It poses a significant safety risk for individuals with peanut allergies, as it can trigger severe allergic reactions."
+    },
+    {
+        "id": "chem_306",
+        "name": "Onion Powder",
+        "type": "safe",
+        "category": "Food - Flavoring Agent",
+        "profile": "Onion powder is a dehydrated, ground onion used as a culinary seasoning. It is generally recognized as safe for human consumption, though it can be toxic to certain pets such as dogs and cats."
+    },
+    {
+        "id": "chem_307",
+        "name": "Spices",
+        "type": "safe",
+        "category": "Food - Flavoring Agent",
+        "profile": "A collective term for dried plant parts used to season food, generally recognized as safe (GRAS) by the FDA, though they may trigger allergic reactions in sensitive individuals."
+    },
+    {
+        "id": "chem_308",
+        "name": "Chili Powder",
+        "type": "safe",
+        "category": "Food - Spice",
+        "profile": "A blend of ground dried chili peppers and other spices used as a culinary seasoning. It is generally safe for consumption, though it can cause irritation to the eyes, skin, or gastrointestinal tract in sensitive individuals."
+    },
+    {
+        "id": "chem_309",
+        "name": "Curcuma longa (Turmeric)",
+        "type": "safe",
+        "category": "Food - Spice / Colorant",
+        "profile": "Turmeric is a natural spice primarily used as a culinary flavoring and yellow food coloring agent. It is generally recognized as safe (GRAS) for consumption and is known for its potential anti-inflammatory and antioxidant properties."
+    },
+    {
+        "id": "chem_310",
+        "name": "Garlic Powder",
+        "type": "safe",
+        "category": "Food - Flavoring Agent",
+        "profile": "Garlic powder is a dehydrated, ground form of Allium sativum used as a seasoning. It is generally recognized as safe for human consumption, though it may trigger digestive discomfort in sensitive individuals or those with irritable bowel syndrome."
+    },
+    {
+        "id": "chem_311",
+        "name": "Sodium Bicarbonate",
+        "type": "safe",
+        "category": "Food - Leavening Agent/pH Adjuster",
+        "profile": "Sodium bicarbonate is a common mineral compound used as a leavening agent in baking and as an antacid. It is generally recognized as safe for consumption and topical use, though excessive ingestion may cause electrolyte imbalance."
+    },
+    {
+        "id": "chem_312",
+        "name": "Ingredients (Label Heading)",
+        "type": "safe",
+        "category": "Labeling - Informational",
+        "profile": "The term 'INGRED ENTS' is a typographical error for 'INGREDIENTS', which is a mandatory header used to list the components of a product. It is not a chemical substance and carries no health or safety risk."
+    },
+    {
+        "id": "chem_313",
+        "name": "Corn Meal",
+        "type": "safe",
+        "category": "Food - Ingredient",
+        "profile": "Corn meal is a culinary ingredient made from ground dried corn, typically used for texture or as a base in food products. It is generally recognized as safe for consumption, though it should be avoided by individuals with corn allergies or celiac disease if cross-contamination is a concern."
+    },
+    {
+        "id": "chem_314",
+        "name": "Rice Meal",
+        "type": "safe",
+        "category": "Food - Grains/Filler",
+        "profile": "Rice meal is a ground form of rice typically used as a thickener, binder, or carbohydrate source in food products. It is generally considered safe for human consumption, though it lacks significant nutritional density compared to whole grain rice."
+    },
+    {
+        "id": "chem_315",
+        "name": "Chickpea flour",
+        "type": "safe",
+        "category": "Food - Ingredient",
+        "profile": "Gram meal, also known as besan or chickpea flour, is a ground legume product used as a food ingredient or thickening agent. It is generally recognized as safe for consumption, though it can trigger allergic reactions in individuals with legume sensitivities."
+    },
+    {
+        "id": "chem_316",
+        "name": "Sodium Chloride",
+        "type": "safe",
+        "category": "Food - Preservative/Flavor Enhancer",
+        "profile": "Sodium chloride is a mineral used primarily as a flavor enhancer and preservative in food. While generally safe, excessive consumption is linked to health issues like hypertension and cardiovascular strain."
+    },
+    {
+        "id": "chem_317",
+        "name": "Piper nigrum (Black Pepper)",
+        "type": "safe",
+        "category": "Food - Spice/Flavoring Agent",
+        "profile": "Black pepper is a common culinary spice derived from dried peppercorns that is generally recognized as safe for consumption; it is primarily used for flavoring and possesses antioxidant properties."
+    },
+    {
+        "id": "chem_318",
+        "name": "Cheese Powder",
+        "type": "safe",
+        "category": "Food - Flavoring/Additive",
+        "profile": "A dehydrated form of cheese used to provide flavor and texture to snacks and prepared foods. It is generally recognized as safe (GRAS), though it typically contains high levels of sodium and potential allergens like milk."
+    },
+    {
+        "id": "chem_319",
+        "name": "Artificial and Nature-Identical Butter Flavoring",
+        "type": "safe",
+        "category": "Food - Flavoring Agent",
+        "profile": "These are chemical compounds, such as diacetyl or acetoin, used to replicate the taste and aroma of butter. While generally recognized as safe for consumption, some synthetic flavoring compounds can cause respiratory irritation if inhaled in concentrated industrial settings."
+    },
+    {
+        "id": "chem_320",
+        "name": "Chickpea flour",
+        "type": "safe",
+        "category": "Food - Thickener/Binder",
+        "profile": "Gram meal, also known as besan, is a flour made from ground chickpeas. It is widely considered safe and is used as a culinary ingredient, though it can pose an allergen risk for individuals with legume sensitivities."
+    },
+    {
+        "id": "chem_321",
+        "name": "Sodium Chloride",
+        "type": "safe",
+        "category": "Food - Flavor Enhancer / Preservative",
+        "profile": "Sodium chloride is a naturally occurring mineral used to enhance flavor and extend shelf life by inhibiting microbial growth. While generally safe, excessive consumption can contribute to high blood pressure in sensitive individuals."
+    },
+    {
+        "id": "chem_322",
+        "name": "Sucrose",
+        "type": "safe",
+        "category": "Food - Sweetener",
+        "profile": "A common carbohydrate used as a sweetener and preservative. While generally safe, excessive consumption is linked to metabolic health issues such as obesity and type 2 diabetes."
+    },
+    {
+        "id": "chem_323",
+        "name": "Ammonium Bicarbonate (503ii) and Sodium Bicarbonate (500ii)",
+        "type": "safe",
+        "category": "Food - Leavening Agent",
+        "profile": "These are common baking agents used to make dough rise by releasing carbon dioxide. They are generally recognized as safe for consumption when used in food products."
+    },
+    {
+        "id": "chem_324",
+        "name": "Protease (INS 1101ii)",
+        "type": "safe",
+        "category": "Food - Enzyme / Flour Treatment Agent",
+        "profile": "Protease is an enzyme used to hydrolyze proteins to improve dough texture and elasticity. It is generally recognized as safe (GRAS) for consumption as it is deactivated during the baking process."
+    },
+    {
+        "id": "chem_325",
+        "name": "Diacetyl tartaric acid esters of mono- and diglycerides (DATEM)",
+        "type": "safe",
+        "category": "Food - Emulsifier",
+        "profile": "Used as an emulsifier to improve dough structure and texture in baked goods. It is generally recognized as safe (GRAS) by regulatory agencies when consumed in typical dietary amounts."
+    },
+    {
+        "id": "chem_326",
+        "name": "Honey",
+        "type": "safe",
+        "category": "Food - Humectant/Sweetener",
+        "profile": "Honey is a natural substance used as a sweetener or humectant in cosmetic formulations. It is generally safe for topical use, though it should not be ingested by infants under one year due to the risk of botulism."
+    },
+    {
+        "id": "chem_327",
+        "name": "Brown Rice Syrup",
+        "type": "safe",
+        "category": "Food - Sweetener",
+        "profile": "A plant-based liquid sweetener produced by enzymatically breaking down rice starch into sugars. It is generally considered safe but acts similarly to table sugar and can contribute to elevated blood glucose levels if consumed in excess."
+    },
+    {
+        "id": "chem_328",
+        "name": "Rice Syrup",
+        "type": "safe",
+        "category": "Food - Sweetener",
+        "profile": "A plant-based sweetener derived from fermented rice starch used to provide sweetness and texture. It is generally considered safe for consumption but has a high glycemic index, similar to refined sugars."
+    },
+    {
+        "id": "chem_329",
+        "name": "Sugar (Sucrose)",
+        "type": "safe",
+        "category": "Food - Sweetener",
+        "profile": "Evaporated cane juice is a sweetener derived from dehydrated sugar cane syrup that is chemically identical to table sugar. While safe for consumption, it should be consumed in moderation as excessive intake is linked to metabolic health issues."
+    },
+    {
+        "id": "chem_330",
+        "name": "Extra Virgin Olive Oil",
+        "type": "safe",
+        "category": "Food/Cosmetic - Emollient",
+        "profile": "A natural oil extracted from olives, used as a food ingredient or a cosmetic moisturizer. It is generally recognized as safe for topical and oral consumption, offering antioxidant properties and skin-conditioning benefits."
+    },
+    {
+        "id": "chem_331",
+        "name": "Refined Hazelnut Oil",
+        "type": "safe",
+        "category": "Cosmetic/Food - Emollient",
+        "profile": "A plant-derived oil used as a skin conditioning agent or food ingredient; it is generally safe but must be avoided by individuals with tree nut allergies."
+    },
+    {
+        "id": "chem_332",
+        "name": "Dehydrated Potatoes",
+        "type": "safe",
+        "category": "Food - Thickening Agent/Starch",
+        "profile": "Dehydrated potatoes are processed potatoes used as a shelf-stable starch source to provide texture and body to food products. They are generally recognized as safe for consumption, though individuals with specific starch sensitivities or dietary restrictions should note their carbohydrate content."
+    },
+    {
+        "id": "chem_333",
+        "name": "Sodium Caseinate",
+        "type": "safe",
+        "category": "Food - Emulsifier/Stabilizer",
+        "profile": "A protein derived from milk used to improve texture and shelf stability in processed foods. It is generally recognized as safe, but must be avoided by individuals with milk protein allergies."
+    },
+    {
+        "id": "chem_334",
+        "name": "Sodium Chloride",
+        "type": "safe",
+        "category": "Food - Preservative/Flavor Enhancer",
+        "profile": "Sodium chloride is used primarily to enhance flavor and preserve food by inhibiting bacterial growth. While generally safe, excessive consumption can contribute to hypertension and cardiovascular issues in some individuals."
+    },
+    {
+        "id": "chem_335",
+        "name": "Sodium Chloride",
+        "type": "safe",
+        "category": "Food - Preservative/Flavor Enhancer",
+        "profile": "Sodium chloride is a common mineral used as a flavor enhancer and preservative in food. While generally safe, excessive consumption can contribute to hypertension and cardiovascular issues in some individuals."
+    },
+    {
+        "id": "chem_336",
+        "name": "Sodium Chloride",
+        "type": "safe",
+        "category": "Food - Flavor Enhancer/Preservative",
+        "profile": "Common table salt is used as a flavor enhancer and preservative. While generally safe, excessive consumption is linked to hypertension and cardiovascular health issues."
+    },
+    {
+        "id": "chem_337",
+        "name": "Sodium Chloride",
+        "type": "safe",
+        "category": "Food - Preservative and Flavor Enhancer",
+        "profile": "Salt is a common mineral used as a flavoring agent and preservative to inhibit microbial growth. While generally safe, excessive consumption can contribute to hypertension and cardiovascular issues in sensitive individuals."
+    },
+    {
+        "id": "chem_338",
+        "name": "Sodium Chloride",
+        "type": "safe",
+        "category": "Food - Preservative/Flavor Enhancer",
+        "profile": "Sodium chloride is used to enhance flavor and act as a natural preservative by inhibiting microbial growth. While generally safe in moderate amounts, excessive consumption can contribute to hypertension and cardiovascular issues."
+    },
+    {
+        "id": "chem_339",
+        "name": "Sodium Chloride",
+        "type": "safe",
+        "category": "Food - Flavor Enhancer/Preservative",
+        "profile": "Sodium chloride is a common mineral used as a flavor enhancer and preservative in food. While generally safe in moderate amounts, excessive consumption may contribute to hypertension and cardiovascular health issues."
+    },
+    {
+        "id": "chem_340",
+        "name": "Sodium Bicarbonate",
+        "type": "safe",
+        "category": "Food - Leavening agent / Cosmetic - pH adjuster",
+        "profile": "Sodium bicarbonate is a common chemical compound used as a leavening agent in baking or a buffering agent in personal care products. It is generally recognized as safe for consumption and topical use, though excessive ingestion can disrupt electrolyte balance."
+    },
+    {
+        "id": "chem_341",
+        "name": "Calcium peroxide",
+        "type": "safe",
+        "category": "Food - Flour Treatment Agent",
+        "profile": "Calcium peroxide is used as a dough conditioner and oxidizing agent to improve flour texture and baking quality. It is considered safe for consumption when used within established regulatory limits as it breaks down into calcium hydroxide and oxygen."
+    },
+    {
+        "id": "chem_342",
+        "name": "Diacetyl tartaric acid esters of mono- and diglycerides (DATEM)",
+        "type": "safe",
+        "category": "Food - Emulsifier",
+        "profile": "DATEM is a vegetable-derived emulsifier used to strengthen dough and stabilize textures. It is generally recognized as safe (GRAS) by regulatory bodies like the FDA when consumed in standard food amounts."
+    },
+    {
+        "id": "chem_343",
+        "name": "Fructose",
+        "type": "safe",
+        "category": "Food - Sweetener",
+        "profile": "Levulose is another name for fructose, a naturally occurring monosaccharide found in fruits and honey used as a sweetening agent. It is generally recognized as safe for consumption, though excessive intake is linked to metabolic health issues."
+    },
+    {
+        "id": "chem_344",
+        "name": "Amylase",
+        "type": "safe",
+        "category": "Food - Flour Treatment Agent",
+        "profile": "Amylase is an enzyme used to break down starches into sugars to improve fermentation and texture in baked goods. It is generally recognized as safe (GRAS) for consumption and is naturally produced by the human body for digestion."
+    },
+    {
+        "id": "chem_345",
+        "name": "Diacetyl tartaric acid esters of mono- and diglycerides (DATEM)",
+        "type": "safe",
+        "category": "Food - Emulsifier",
+        "profile": "DATEM is a common food additive used to improve dough stability and texture in baked goods. It is generally recognized as safe (GRAS) by regulatory agencies like the FDA and EFSA when consumed in standard dietary amounts."
+    },
+    {
+        "id": "chem_346",
+        "name": "Fructose",
+        "type": "safe",
+        "category": "Food - Sweetener",
+        "profile": "Levulose is a common synonym for fructose, a naturally occurring monosaccharide found in fruits and honey used as a sweetener. While generally safe, excessive consumption can contribute to metabolic issues like insulin resistance and fatty liver disease."
+    },
+    {
+        "id": "chem_347",
+        "name": "Protease (specifically Bacterial Protease)",
+        "type": "safe",
+        "category": "Food - Enzyme/Flour Treatment Agent",
+        "profile": "Protease is an enzyme used to hydrolyze proteins to improve dough elasticity and texture. It is recognized as safe for consumption by major food safety authorities and is deactivated during the baking process."
+    },
+    {
+        "id": "chem_348",
+        "name": "Diacetyl tartaric acid esters of mono- and diglycerides (DATEM)",
+        "type": "safe",
+        "category": "Food - Emulsifier",
+        "profile": "An additive commonly used in baking to strengthen dough and improve texture. It is recognized as safe for consumption by major food safety authorities when used within established limits."
+    }
+]
