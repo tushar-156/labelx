@@ -1,0 +1,156 @@
+[
+  {
+    "id": "q01",
+    "query": "Niacinamide",
+    "expected_name": "Niacinamide",
+    "category": "active",
+    "should_abstain": false
+  },
+  {
+    "id": "q02",
+    "query": "Hyaluronic Acid",
+    "expected_name": "Hyaluronic Acid",
+    "category": "active",
+    "should_abstain": false
+  },
+  {
+    "id": "q03",
+    "query": "Salicylic Acid",
+    "expected_name": "Salicylic Acid",
+    "category": "active",
+    "should_abstain": false
+  },
+  {
+    "id": "q04",
+    "query": "Retinol",
+    "expected_name": "Retinol",
+    "category": "active",
+    "should_abstain": false
+  },
+  {
+    "id": "q05",
+    "query": "Phenoxyethanol",
+    "expected_name": "Phenoxyethanol",
+    "category": "preservative",
+    "should_abstain": false
+  },
+  {
+    "id": "q06",
+    "query": "Glycerin",
+    "expected_name": "Glycerin",
+    "category": "humectant",
+    "should_abstain": false
+  },
+  {
+    "id": "q07",
+    "query": "Tocopherol",
+    "expected_name": "Tocopherol",
+    "category": "antioxidant",
+    "should_abstain": false
+  },
+  {
+    "id": "q08",
+    "query": "Ascorbic Acid",
+    "expected_name": "Ascorbic Acid",
+    "category": "active",
+    "should_abstain": false
+  },
+  {
+    "id": "q09",
+    "query": "Ceramide NP",
+    "expected_name": "Ceramide NP",
+    "category": "barrier_repair",
+    "should_abstain": false
+  },
+  {
+    "id": "q10",
+    "query": "Zinc Oxide",
+    "expected_name": "Zinc Oxide",
+    "category": "sunscreen",
+    "should_abstain": false
+  },
+  {
+    "id": "q11",
+    "query": "Titanium Dioxide",
+    "expected_name": "Titanium Dioxide",
+    "category": "sunscreen",
+    "should_abstain": false
+  },
+  {
+    "id": "q12",
+    "query": "Centella Asiatica",
+    "expected_name": "Centella Asiatica",
+    "category": "botanical",
+    "should_abstain": false
+  },
+  {
+    "id": "q13",
+    "query": "Linalool",
+    "expected_name": "Linalool",
+    "category": "fragrance_allergen",
+    "should_abstain": false
+  },
+  {
+    "id": "q14",
+    "query": "Limonene",
+    "expected_name": "Limonene",
+    "category": "fragrance_allergen",
+    "should_abstain": false
+  },
+  {
+    "id": "q15",
+    "query": "CI 77891",
+    "expected_name": "Titanium Dioxide",
+    "category": "colorant_alias",
+    "should_abstain": false
+  },
+  {
+    "id": "q16",
+    "query": "BHT",
+    "expected_name": "BHT",
+    "category": "preservative",
+    "should_abstain": false
+  },
+  {
+    "id": "q17",
+    "query": "Parabens",
+    "expected_name": "Methylparaben",
+    "category": "preservative",
+    "should_abstain": false
+  },
+  {
+    "id": "q18",
+    "query": "Kryptonite Extract 9000",
+    "expected_name": null,
+    "category": "out_of_corpus",
+    "should_abstain": true
+  },
+  {
+    "id": "q19",
+    "query": "Unobtanium Polymer",
+    "expected_name": null,
+    "category": "out_of_corpus",
+    "should_abstain": true
+  },
+  {
+    "id": "q20",
+    "query": "Synthetic Alien Mucus ZX",
+    "expected_name": null,
+    "category": "out_of_corpus",
+    "should_abstain": true
+  },
+  {
+    "id": "q21",
+    "query": "FakeCompound99",
+    "expected_name": null,
+    "category": "out_of_corpus",
+    "should_abstain": true
+  },
+  {
+    "id": "q22",
+    "query": "Dihydrogen Phosphotrixalite",
+    "expected_name": null,
+    "category": "out_of_corpus",
+    "should_abstain": true
+  }
+]
