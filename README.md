@@ -73,9 +73,12 @@ The LabelX platform operates across five interconnected functional subsystems:
 ## 3. Mathematical and Biophysical Formulations
 
 ### 3.1 Potts-Guy Quantitative Dermal Permeability Model
-Transdermal passive permeability across the human stratum corneum is modeled as a function of the octanol-water partition coefficient ($\log P$) and molecular weight ($MW$):
 
-$$\log K_p = -2.7 + 0.71 \cdot \log P - 0.0061 \cdot MW$$
+Transdermal passive permeability across human stratum corneum is modeled as a function of the octanol-water partition coefficient ($\log P$) and molecular weight ($MW$):
+
+$$
+\log K_p = -2.7 + 0.71 \cdot \log P - 0.0061 \cdot MW
+$$
 
 Where:
 * $K_p$ represents the dermal permeability coefficient expressed in $\text{cm/hr}$.
@@ -83,44 +86,68 @@ Where:
 * $MW$ represents molecular weight in Daltons ($\text{g/mol}$).
 
 ### 3.2 Fickian Transdermal Diffusion Kinetics
+
 Diffusion through the epidermal lipid matrix follows Fick's Second Law:
 
-1. **Stratum Corneum Diffusivity ($D_{sc}$)**:
-   $$\log_{10}(D_{sc}) = -9.2 - 0.0035 \cdot MW \quad [\text{cm}^2/\text{s}]$$
+**Stratum Corneum Diffusivity ($D_{sc}$)**:
 
-2. **Diffusion Lag Time ($t_{lag}$)**:
-   $$t_{lag} = \frac{h^2}{6 \cdot D_{sc}} \quad [\text{hours}]$$
-   *(where $h \approx 15\,\mu\text{m}$ represents standard human stratum corneum thickness).*
+$$
+\log_{10}(D_{sc}) = -9.2 - 0.0035 \cdot MW \quad [\text{cm}^2/\text{s}]
+$$
 
-3. **Steady-State Flux ($J_{ss}$)**:
-   $$J_{ss} = K_p \cdot C_v \quad [\mu\text{g}/\text{cm}^2/\text{hr}]$$
-   *(where $C_v$ is the effective formulation donor concentration).*
+**Diffusion Lag Time ($t_{\text{lag}}$)**:
 
-4. **Cumulative Penetrated Mass ($Q(t)$)**:
-   $$Q(t) = \max\left(0, \, J_{ss} \cdot (t - t_{lag})\right) \quad [\mu\text{g}/\text{cm}^2]$$
+$$
+t_{\text{lag}} = \frac{h^2}{6 \cdot D_{sc}} \quad [\text{hours}]
+$$
+
+*(where $h \approx 15\,\mu\text{m}$ represents standard human stratum corneum thickness)*
+
+**Steady-State Flux ($J_{ss}$)**:
+
+$$
+J_{ss} = K_p \cdot C_v \quad [\mu\text{g}/\text{cm}^2/\text{hr}]
+$$
+
+*(where $C_v$ is the effective formulation donor concentration)*
+
+**Cumulative Penetrated Mass ($Q(t)$)**:
+
+$$
+Q(t) = \max\left(0, \, J_{ss} \cdot (t - t_{\text{lag}})\right) \quad [\mu\text{g}/\text{cm}^2]
+$$
 
 ### 3.3 Bos-Marcus 500-Dalton Cutoff Rule
+
 * Compounds with $MW < 500\text{ Da}$ and $\text{TPSA} \le 140\text{ \AA}^2$ possess potential for passive transdermal bio-absorption.
 * Compounds with $MW \ge 500\text{ Da}$ or high polar surface area remain confined to the surface skin layer as non-permeating film formers.
 
 ### 3.4 Optical Quality and Circularity Metric
-To verify official statutory quality marks (such as the Indian vegetarian green dot symbol) from captured label photographs, contour circularity is evaluated:
 
-$$C = \frac{4 \pi \cdot \text{Area}}{\text{Perimeter}^2}$$
+To verify official statutory quality marks (such as the Indian vegetarian green dot symbol) from captured label photographs, contour circularity ($C$) is evaluated:
+
+$$
+C = \frac{4 \pi \cdot \text{Area}}{\text{Perimeter}^2}
+$$
 
 * For an ideal circle, $C = 1.0$.
 * Contours falling within $0.75 \le C \le 1.25$ with matching chromatic thresholds verify statutory certification.
 
 Image sharpness is quantitatively evaluated via the variance of the discrete Laplacian operator:
 
-$$\text{Sharpness} = \text{Var}(\nabla^2 I) = \frac{1}{N} \sum_{x,y} \left(\nabla^2 I(x,y) - \mu\right)^2$$
+$$
+\text{Sharpness} = \text{Var}(\nabla^2 I) = \frac{1}{N} \sum_{x,y} \left(\nabla^2 I(x,y) - \mu\right)^2
+$$
 
-Images scoring below a threshold ($\text{Sharpness} < 100$) trigger automatic contrast enhancement and unsharp masking.
+Images scoring below threshold ($\text{Sharpness} < 100$) trigger automatic contrast enhancement and unsharp masking.
 
 ### 3.5 Nutritional Reference Intake Percentage
+
 Nutrient values are benchmarked against official UK Food Standards Agency (FSA) and European reference intake values:
 
-$$\text{RI}\% = \left( \frac{\text{Nutrient Quantity per 100g}}{\text{Daily Reference Intake Standard}} \right) \times 100$$
+$$
+\text{RI}\% = \left( \frac{\text{Nutrient Quantity per 100g}}{\text{Daily Reference Intake Standard}} \right) \times 100
+$$
 
 Standard Reference Intakes ($\text{RI}$):
 * Energy: $2000\text{ kcal}$
@@ -130,20 +157,28 @@ Standard Reference Intakes ($\text{RI}$):
 * Salt: $6\text{ g}$ (equivalent to $2.4\text{ g}$ Sodium)
 
 ### 3.6 Descending Order Volume Approximation
+
 Under statutory food labeling regulations (FSSAI, FDA, EU No 1169/2011), ingredients must be declared in descending order of weight at the time of manufacture. The relative mass fraction $w_i$ of the $i$-th ingredient satisfies:
 
-$$w_1 \ge w_2 \ge w_3 \ge \dots \ge w_n, \quad \text{where} \quad \sum_{i=1}^n w_i = 1$$
+$$
+w_1 \ge w_2 \ge w_3 \ge \dots \ge w_n, \quad \text{where} \quad \sum_{i=1}^n w_i = 1
+$$
 
-Empirical formulation analysis demonstrates that the top three ingredients routinely account for over $70\%$ of product volume:
+Empirical formulation analysis demonstrates that the top three ingredients account for over $70\%$ of product volume:
 
-$$\sum_{i=1}^3 w_i \approx 0.70 \text{ to } 0.85$$
+$$
+\sum_{i=1}^3 w_i \approx 0.70 \text{ to } 0.85
+$$
 
 When industrial fillers (such as refined sugar, palm oil, or refined starch) occupy positions $i \in \{1, 2, 3\}$ in items advertised as health foods, the product is flagged for deceptive formulation hierarchy.
 
 ### 3.7 Biometric Risk Indexing
+
 Personalized vulnerability scores incorporate Body Mass Index:
 
-$$\text{BMI} = \frac{\text{Body Mass (kg)}}{\left(\text{Body Height (m)}\right)^2}$$
+$$
+\text{BMI} = \frac{\text{Body Mass (kg)}}{\left(\text{Body Height (m)}\right)^2}
+$$
 
 ---
 
@@ -181,32 +216,7 @@ Evaluates formulations across strict clinical criteria:
 
 ---
 
-## 5. Backend REST API Endpoints
-
-The FastAPI backend exposes 36 validated routes:
-
-| Method | Endpoint | Description |
-| :--- | :--- | :--- |
-| `POST` | `/analyze` | Primary multi-agent pipeline executing full safety analysis. |
-| `POST` | `/ocr` | Extracts structured text and fields from label images. |
-| `POST` | `/ocr/dual` | Processes dual front-and-back label captures concurrently. |
-| `POST` | `/image/enhance` | 4-stage optical enhancement and sharpness diagnostics. |
-| `POST` | `/image/verify-stamps` | Circularity verification of vegetarian/non-vegetarian symbols. |
-| `POST` | `/label-padhega/audit` | Descending hierarchy and greenwashing audit. |
-| `POST` | `/chat/product-qa` | Contextual conversational agent grounded on product facts. |
-| `POST` | `/diet-lens/evaluate` | Multi-condition clinical dietary gatekeeping check. |
-| `POST` | `/traffic-lights/evaluate` | Front-of-pack traffic light ratings and reference intakes. |
-| `POST` | `/recipes/suggest` | Generates clean whole-food kitchen replacement recipes. |
-| `GET` | `/barcode/{code}` | Direct product lookup from Open Food Facts database. |
-| `GET` | `/intake/history` | Retrieves stored daily intake records and cumulative logs. |
-| `POST` | `/simulate` | Interactive what-if reformulation scenario modeling. |
-| `POST` | `/routine/stack` | Cross-product active ingredient conflict and pH analysis. |
-| `GET` | `/health` | Service health status and dependency checks. |
-| `GET` | `/docs` | Swagger interactive API documentation. |
-
----
-
-## 6. Installation and Setup
+## 5. Installation and Setup
 
 ### Prerequisites
 * Python 3.11 or higher
@@ -214,7 +224,7 @@ The FastAPI backend exposes 36 validated routes:
 * npm or pnpm
 * Google Gemini API Key (for optical character recognition)
 
-### 6.1 Backend Setup
+### 5.1 Backend Setup
 ```powershell
 # Navigate to backend directory
 cd C:\ClientBTP\Label\backend
@@ -230,7 +240,7 @@ pip install -r requirements.txt
 python -m uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 ```
 
-### 6.2 Frontend Setup
+### 5.2 Frontend Setup
 ```powershell
 # Navigate to frontend directory
 cd C:\ClientBTP\Label\frontend
@@ -242,14 +252,14 @@ npm install
 npm run dev
 ```
 
-### 6.3 One-Click Launchers (Windows)
+### 5.3 One-Click Launchers (Windows)
 For convenience, pre-configured launcher scripts are provided in the root directory:
 * `run_backend.bat`: Launches the FastAPI server with hot-reloading at `http://localhost:8000`.
 * `run_all.bat`: Launches both the FastAPI backend and Next.js frontend in separate processes.
 
 ---
 
-## 7. Quantitative Benchmark Evaluation
+## 6. Quantitative Benchmark Evaluation
 
 The analytical rules engine was evaluated against a gold-standard benchmark of 20 verified formulation profiles comprising regulatory bans, high-risk active clashes, and clean negative controls:
 
@@ -262,7 +272,7 @@ The analytical rules engine was evaluated against a gold-standard benchmark of 2
 
 ---
 
-## 8. Repository Structure
+## 7. Repository Structure
 
 ```
 Label/
@@ -279,7 +289,7 @@ Label/
 │   │   │   └── ...                         # QSAR, biophysics, and compliance services
 │   │   ├── rules/                          # Formulation conflict and regulatory rules
 │   │   └── graph/                          # LangGraph state machine and deliberation agents
-│   ├── main.py                             # FastAPI entry point (36 registered endpoints)
+│   ├── main.py                             # FastAPI entry point
 │   └── requirements.txt                    # Python package specifications
 ├── frontend/
 │   ├── components/LabelX/
@@ -301,12 +311,12 @@ Label/
 
 ---
 
-## 9. Academic Citation
+## 8. Academic Citation
 
 ```bibtex
 @thesis{labelx2026,
   title={LabelX: In Silico Predictive Toxicology, Deterministic Dietary Gatekeeping, and Multi-Agent Orchestration for Consumer Safety},
-  author={Tushar Bharti,Utkarsh Tiwari and Ayush Maurya},
+  author={Ankit and Contributors},
   year={2026},
   school={Bachelor Thesis Project in Computer Science and Engineering}
 }
