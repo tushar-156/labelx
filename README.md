@@ -316,7 +316,7 @@ Label/
 ```bibtex
 @thesis{labelx2026,
   title={LabelX: In Silico Predictive Toxicology, Deterministic Dietary Gatekeeping, and Multi-Agent Orchestration for Consumer Safety},
-  author={Ankit and Contributors},
+  author={Tushar Bharti,Utkarsh Tiwari and Ayush Maurya},
   year={2026},
   school={Bachelor Thesis Project in Computer Science and Engineering}
 }
